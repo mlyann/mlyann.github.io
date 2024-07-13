@@ -12,7 +12,6 @@ This project is dedicated to developing a personal website for Minglai Yang, a t
 
 ## Technologies
 
-- **Template**: Alfolio
 - **Frontend**: HTML, CSS, JavaScript
 - **Hosting**: GitHub Pages
 - **Version Control**: Git, GitHub
@@ -49,6 +48,7 @@ To use this template and customize it for your own needs:
 ## Contribution
 
 Contributions are welcome! Please fork the repository and create a pull request with your proposed changes.
+And for more details, I highly recommend to see al-folio repo "https://github.com/alshedivat/al-folio".
 
 ## License
 
