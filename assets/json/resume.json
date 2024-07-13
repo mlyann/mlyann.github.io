@@ -1,0 +1,262 @@
+{
+  "basics": {
+    "name": "Minglai Yang",
+    "label": "AI Engineer, ML Research Assistant and SDE Intern",
+    "image": "",
+    "email": "mlyang721@arizona.edu",
+    "phone": "(240) 453-1294",
+    "url": "https://mlyann.github.io/",
+    "summary": "A top-performing computer science student at the University of Arizona with extensive experience in AI, software engineering, and statistical machine learning.",
+    "location": {
+      "address": "13640 Air and Space Museum Pkwy",
+      "postalCode": "VA 20171",
+      "city": "Herndon",
+      "countryCode": "US",
+      "county": "Fairfax"
+    },
+    "profiles": [
+      {
+        "network": "",
+        "username": "",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "CoreTechs Consulting Inc.",
+      "position": "Software Engineer Intern (Full Time)",
+      "url": "https://www.coretechs.com/",
+      "startDate": "2024-05-12",
+      "endDate": "2024-08-09",
+      "summary": "Enhanced website functionality and user engagement through AWS services and intelligent bot integrations.",
+      "highlights": ["Orchestrate end-to-end website development, including design, deployment, and management on AWS with Nginx, Docker, and services like EC2, RDS, and S3. ","Utilize HTML, CSS, JavaScript, and PHP, alongside GitLab for version control and deployment.", "Build intelligent bots for Discord and Slack, employing GPTs and Pinecone for natural language processing and document retrieval, integrating Slack into official websites through live chat in Javascript.","Create React “Live-Chat” applications to optimize workflows and enhance user experience.","Simulated 500 concurrent users with Selenium to rigorously stress test the web application's performance."]
+    },
+    {
+      "name": "The University of Arizona, Institute for Computation and Data-Enabled Insight",
+      "position": "AI Engineer",
+      "url": "https://aicore.arizona.edu/",
+      "startDate": "2024-03-14",
+      "endDate": "",
+      "summary": "Advanced AI capabilities in GPT models, computer vision, and gaming applications, driving efficiency and performance gains.",
+      "highlights": ["Lead and optimize GPT-based models to process 40% more tokens per request, reducing operational costs by 25% while maintaining high model performance.","Increasing accuracy of roadway defect detection by 15% using OpenCV library and YOLOv10 model.","Acquire client data and establish a database on AWS RDS, improving data analysis efficiency by 20%.","Develop an AI for Minecraft using video training, reinforcement, and imitation learning, achieving 25% improvement in task execution speed and adaptability in dynamic environments."]
+    },
+    {
+      "name": "The University of Arizona, ML4AI LAB and IVILAB",
+      "position": "Research Assistant",
+      "url": "https://ivilab.org/",
+      "startDate": "2023-09-27",
+      "endDate": "",
+      "summary": "Implemented dynamic Bayesian networks and Theory of Mind concepts in AI research, enabling accurate prediction of human behaviors and enhancing real-world AI applications.",
+      "highlights": ["Develop the application of dynamic Bayesian networks and Theory of Mind concepts within the ToMCAT project, enhancing AI's ability to interpret complex human behaviors and predict their plans and goals.","Collaborate with Dr. Kobus Barnard, Dr. Clayton Morrison and Dr. Adarsh Pyarelal to translate advanced machine learning research into practical, deployable AI systems for real-world impact."]
+    }
+  ],
+  // "volunteer": [
+  //   {
+  //     "organization": "People's Climate March",
+  //     "location": "Zurich, Switzerland",
+  //     "position": "Lead Organizer",
+  //     "url": "https://example.com",
+  //     "startDate": "2014-04-01",
+  //     "endDate": "2015-07-01",
+  //     "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+  //     "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+  //   }
+  // ],
+  "education": [
+    {
+      "institution": "University of Arizona, Tucson, Arizona",
+      "location": "Arizona, USA",
+      "url": "https://science.arizona.edu/",
+      "area": "Computer Science, GPA: 4.0/4.0 (Top 1)",
+      "studyType": "Bachelor of Science (BS)",
+      "startDate": "2023-08-24",
+      "endDate": "",
+      "score": "",
+      "courses": ["Computer Vision","Deep Learning for Natural Language Processing","Software Development","Computer Organization","Object-Oriented Programming (OOP)"]
+    }
+  ],
+  // "awards": [
+  //   {
+  //     "title": "Nobel Prize in Physics",
+  //     "date": "1921-11-01",
+  //     "awarder": "Royal Swedish Academy of Sciences",
+  //     "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+  //     "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+  //   }
+  // ],
+  "certificates": [
+    {
+      "name": "Social & Behavioral Research Investigators",
+      "date": "2023-09-25",
+      "issuer": "Citi program",
+      "url": "https://www.citiprogram.org/verify/?wdc107489-491c-4e8f-a1fb-6dc5949c043d-58621022",
+      "icon": "fa-solid fa-bookmark"
+    },
+    {
+      "name": "Native American Research",
+      "date": "2023-09-25",
+      "issuer": "Citi program",
+      "url": "https://www.citiprogram.org/verify/?w9bdc8fad-b81b-4741-a45f-2f27d95dea42-58621023",
+      "icon": "fa-solid fa-bookmark"
+    }
+  ],
+  // "publications": [
+  //   {
+  //     "name": "Zur Elektrody/namik bewegter Körper",
+  //     "publisher": "Annalen der Physik",
+  //     "releaseDate": "1905-06-30",
+  //     "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
+  //     "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+  //   },
+  // ],
+"skills": [
+    {
+      "name": "Statistical Machine Learning",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Deep Learning",
+        "Probabilistic Modeling",
+        "Dynamic Bayesian Networks",
+        "Pattern Recognition",
+        "Natural Language Processing",
+        "Computer Vision"
+      ]
+    },
+    {
+      "name": "Software Engineering",
+      "level": "Expert",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Python",
+        "Java",
+        "Matlab",
+        "JavaScript",
+        "Swift",
+        "PHP",
+        "HTML/CSS",
+        "MySQL",
+        "C"
+      ]
+    },
+    {
+      "name": "Cloud Services",
+      "level": "Master",
+      "icon": "fa-solid fa-cloud",
+      "keywords": [
+        "EC2 (AWS)",
+        "S3 (AWS)",
+        "Lambda (AWS)",
+        "RDS (AWS)",
+        "MongoDB",
+        "Virtual Machines (Azure)",
+        "Azure Blob Storage",
+        "Azure Functions",
+        "Azure SQL Database",
+        "Cosmos DB"
+      ]
+    },
+    {
+      "name": "Artificial Intelligence - Deep Learning",
+      "level": "Expert",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "PyTorch",
+        "Convolutional Neural Networks (CNN)",
+        "Recurrent Neural Networks (RNN)",
+        "Long Short-Term Memory Networks (LSTM)",
+        "Generative Adversarial Networks (GAN)",
+        "Transformer Networks",
+        "Deep Reinforcement Learning",
+        "Natural Language Processing (NLP) with Deep Learning",
+        "Computer Vision with Deep Learning"
+      ]
+    },
+    {
+      "name": "Data Visualization - Graph Drawing",
+      "level": "Advanced",
+      "icon": "fa-solid fa-laptop",
+      "keywords": [
+        "Graph Convolutional Neural Network (GCN)",
+        "Graph Drawing Algorithms",
+        "Force-Directed Layout",
+        "Hierarchical Layout",
+        "Graph Visualization Tools",
+        "Interactive Graph Visualization",
+        "Network Analysis",
+        "Graph Metrics and Analysis"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker",
+      "icon": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Artificial Intelligence",
+      "icon": "fa fa-android",
+      "keywords": [
+        "Machine Learning",
+        "Natural Language Processing",
+        "Computer Vision",
+        "Reinforcement Learning"
+      ]
+    },
+    {
+      "name": "Software Development",
+      "icon": "fa fa-laptop-code",
+      "keywords": [
+        "Web Development",
+        "Cloud Computing",
+        "DevOps",
+        "Full Stack Development"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Reyan Ahmed abureyanahmed@arizona.edu",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Assistant professor, Computer science, University of Arizona"
+    }
+  ],
+  "projects": [
+    {
+      "name": "ToMCAT Project ($7.5M DARPA funded), University of Arizona, ML4AI and IVILAB",
+      "summary": "Developed AI models utilizing dynamic Bayesian networks and Theory of Mind concepts. Integrated physiological data from fNIRS and EEG, along with facial expressions, to enhance predictions of individual behaviors and team dynamics in search and rescue missions, increasing decision-making accuracy by 30%.",
+      "highlights": ["Cross-validation and correlation analysis", "Pupil data analysis with cognitive science principles"],
+      "startDate": "2023-09-25",
+      "endDate": "",
+      "url": "https://ml4ai.github.io/tomcat/"
+    },
+    {
+      "name": "Darts Game Website Deployment with AWS and Docker",
+      "summary": "Designed and deployed a darts game website using Nginx and Docker. Hosted on AWS with EC2 for server management, RDS for database handling, and S3 for data storage. Managed versioning and automated deployment via GitLab, boosting workflow efficiency and reliability.",
+      "highlights": ["EC2 server management", "RDS database handling", "S3 data storage"],
+      "startDate": "2024-05-06",
+      "endDate": "2024-06-10",
+      "url": "/projects/Darts%20App/"
+    },
+    {
+      "name": "Bot Development for Slack and Discord",
+      "summary": "Leveraged RAG (Retrieval-Augmented Generation) for advanced natural language processing. Employed prompting and fine-tuning methods to customize responses and enhance performance. Integrated Pinecone for efficient document retrieval, solving hallucinations in communication channels.",
+      "highlights": ["Advanced natural language processing", "Custom response fine-tuning", "Efficient document retrieval"],
+      "startDate": "2024-04-23",
+      "endDate": "2024-05-10",
+      "url": "/projects/ChatGPT%20Slack%20Integration/"
+    },
+    {
+      "name": "Google Calendar Integration with ChatGPT Discord Chat Bot via Node.js",
+      "summary": "Deployed the chatbot on Amazon EC2 for continuous operation and accessibility. Integrated the Google Cloud API using Nginx for users to schedule and manage events through Discord. Implemented and tested advanced error handling and logging mechanisms to ensure robust operation.",
+      "highlights": ["Continuous operation on Amazon EC2", "Google Cloud API integration", "Advanced error handling and logging"],
+      "startDate": "2024-04-29",
+      "endDate": "",
+      "url": "/projects/Discord%20Chatbot%20Integration%20with%20Google%20Calendar/"
+    }
+  ]
+}
