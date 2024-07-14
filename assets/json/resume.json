@@ -22,6 +22,19 @@
       }
     ]
   },
+  "education": [
+    {
+      "institution": "University of Arizona, Tucson, Arizona",
+      "location": "Arizona, USA",
+      "url": "https://science.arizona.edu/",
+      "area": "Computer Science, GPA: 4.0/4.0 (Top 1)",
+      "studyType": "Bachelor of Science (BS)",
+      "startDate": "2023-08-24",
+      "endDate": "",
+      "score": "",
+      "courses": ["Computer Vision","Deep Learning for Natural Language Processing","Software Development","Computer Organization","Object-Oriented Programming (OOP)"]
+    }
+  ],
   "work": [
     {
       "name": "CoreTechs Consulting Inc.",
@@ -51,65 +64,6 @@
       "highlights": ["Develop the application of dynamic Bayesian networks and Theory of Mind concepts within the ToMCAT project, enhancing AI's ability to interpret complex human behaviors and predict their plans and goals.","Collaborate with Dr. Kobus Barnard, Dr. Clayton Morrison and Dr. Adarsh Pyarelal to translate advanced machine learning research into practical, deployable AI systems for real-world impact."]
     }
   ],
-  // "volunteer": [
-  //   {
-  //     "organization": "People's Climate March",
-  //     "location": "Zurich, Switzerland",
-  //     "position": "Lead Organizer",
-  //     "url": "https://example.com",
-  //     "startDate": "2014-04-01",
-  //     "endDate": "2015-07-01",
-  //     "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-  //     "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-  //   }
-  // ],
-  "education": [
-    {
-      "institution": "University of Arizona, Tucson, Arizona",
-      "location": "Arizona, USA",
-      "url": "https://science.arizona.edu/",
-      "area": "Computer Science, GPA: 4.0/4.0 (Top 1)",
-      "studyType": "Bachelor of Science (BS)",
-      "startDate": "2023-08-24",
-      "endDate": "",
-      "score": "",
-      "courses": ["Computer Vision","Deep Learning for Natural Language Processing","Software Development","Computer Organization","Object-Oriented Programming (OOP)"]
-    }
-  ],
-  // "awards": [
-  //   {
-  //     "title": "Nobel Prize in Physics",
-  //     "date": "1921-11-01",
-  //     "awarder": "Royal Swedish Academy of Sciences",
-  //     "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-  //     "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-  //   }
-  // ],
-  "certificates": [
-    {
-      "name": "Social & Behavioral Research Investigators",
-      "date": "2023-09-25",
-      "issuer": "Citi program",
-      "url": "https://www.citiprogram.org/verify/?wdc107489-491c-4e8f-a1fb-6dc5949c043d-58621022",
-      "icon": "fa-solid fa-bookmark"
-    },
-    {
-      "name": "Native American Research",
-      "date": "2023-09-25",
-      "issuer": "Citi program",
-      "url": "https://www.citiprogram.org/verify/?w9bdc8fad-b81b-4741-a45f-2f27d95dea42-58621023",
-      "icon": "fa-solid fa-bookmark"
-    }
-  ],
-  // "publications": [
-  //   {
-  //     "name": "Zur Elektrody/namik bewegter Körper",
-  //     "publisher": "Annalen der Physik",
-  //     "releaseDate": "1905-06-30",
-  //     "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-  //     "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-  //   },
-  // ],
 "skills": [
     {
       "name": "Statistical Machine Learning",
@@ -189,42 +143,6 @@
       ]
     }
   ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Artificial Intelligence",
-      "icon": "fa fa-android",
-      "keywords": [
-        "Machine Learning",
-        "Natural Language Processing",
-        "Computer Vision",
-        "Reinforcement Learning"
-      ]
-    },
-    {
-      "name": "Software Development",
-      "icon": "fa fa-laptop-code",
-      "keywords": [
-        "Web Development",
-        "Cloud Computing",
-        "DevOps",
-        "Full Stack Development"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Reyan Ahmed abureyanahmed@arizona.edu",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Assistant professor, Computer science, University of Arizona"
-    }
-  ],
   "projects": [
     {
       "name": "ToMCAT Project ($7.5M DARPA funded), University of Arizona, ML4AI and IVILAB",
@@ -257,6 +175,95 @@
       "startDate": "2024-04-29",
       "endDate": "",
       "url": "/projects/Discord%20Chatbot%20Integration%20with%20Google%20Calendar/"
+    }
+  ],
+  // "publications": [
+  //   {
+  //     "name": "Zur Elektrody/namik bewegter Körper",
+  //     "publisher": "Annalen der Physik",
+  //     "releaseDate": "1905-06-30",
+  //     "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
+  //     "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+  //   },
+  // ],
+  // "awards": [
+  //   {
+  //     "title": "Nobel Prize in Physics",
+  //     "date": "1921-11-01",
+  //     "awarder": "Royal Swedish Academy of Sciences",
+  //     "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+  //     "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+  //   }
+  // ],
+  "certificates": [
+    {
+      "name": "Social & Behavioral Research Investigators",
+      "date": "2023-09-25",
+      "issuer": "Citi program",
+      "url": "https://www.citiprogram.org/verify/?wdc107489-491c-4e8f-a1fb-6dc5949c043d-58621022",
+      "icon": "fa-solid fa-bookmark"
+    },
+    {
+      "name": "Native American Research",
+      "date": "2023-09-25",
+      "issuer": "Citi program",
+      "url": "https://www.citiprogram.org/verify/?w9bdc8fad-b81b-4741-a45f-2f27d95dea42-58621023",
+      "icon": "fa-solid fa-bookmark"
+    }
+  ],
+  // "volunteer": [
+  //   {
+  //     "organization": "People's Climate March",
+  //     "location": "Zurich, Switzerland",
+  //     "position": "Lead Organizer",
+  //     "url": "https://example.com",
+  //     "startDate": "2014-04-01",
+  //     "endDate": "2015-07-01",
+  //     "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+  //     "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+  //   }
+  // ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Bilingual Proficiency",
+      "icon": "fa-solid fa-language"
+    },
+    {
+      "language": "Shanghainese",
+      "fluency": "Bilingual Proficiency",
+      "icon": "fa-solid fa-language"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Artificial Intelligence",
+      "icon": "fa-solid fa-robot",
+      "keywords": [
+        "Machine Learning",
+        "Natural Language Processing",
+        "Computer Vision",
+        "Reinforcement Learning",
+        "Human-Interaction",
+        "Cognitive Science"
+      ]
+    },
+    {
+      "name": "Software Development",
+      "icon": "fa fa-laptop-code",
+      "keywords": [
+        "Web Development",
+        "Cloud Computing",
+        "DevOps",
+        "Full Stack Development"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Reyan Ahmed abureyanahmed@arizona.edu",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Assistant professor, Computer science, University of Arizona"
     }
   ]
 }
