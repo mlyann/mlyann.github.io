@@ -9,6 +9,7 @@ This project is dedicated to developing a personal website for Minglai Yang, a t
 - **Publications**: List of research papers and articles.
 - **Resume**: Downloadable PDF of the resume.
 - **Contact**: Form and social media links for professional networking.
+- **Template**: Al-folio
 
 ## Technologies
 
@@ -45,10 +46,6 @@ To use this template and customize it for your own needs:
 4. Update your publication list in the `_data/publications.yml` file.
 5. Replace placeholder images in the `assets/img/` directory with your own.
 
-## Contribution
-
-Contributions are welcome! Please fork the repository and create a pull request with your proposed changes.
-And for more details, I highly recommend to see al-folio repo "https://github.com/alshedivat/al-folio".
 
 ## License
 
