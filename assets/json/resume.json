@@ -65,24 +65,39 @@
     }
   ],
 "skills": [
-    {
-      "name": "Statistical Machine Learning",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Deep Learning",
+  {
+    "name": "Statistical Machine Learning",
+    "level": "Master",
+    "icon": "fa-solid fa-hashtag",
+    "keywords": [
         "Probabilistic Modeling",
         "Dynamic Bayesian Networks",
         "Pattern Recognition",
-        "Natural Language Processing",
         "Computer Vision"
-      ]
-    },
-    {
-      "name": "Software Engineering",
-      "level": "Expert",
-      "icon": "fa-solid fa-code",
-      "keywords": [
+    ]
+  },
+  {
+    "name": "Artificial Intelligence - Deep Learning",
+    "level": "Expert",
+    "icon": "fa-solid fa-brain",
+    "keywords": [
+        "Deep Learning",
+        "Deep Learning for Natural Language Processing",
+        "Deep Learning for Computer Vision",
+        "PyTorch",
+        "Convolutional Neural Networks (CNN)",
+        "Recurrent Neural Networks (RNN)",
+        "Long Short-Term Memory Networks (LSTM)",
+        "Generative Adversarial Networks (GAN)",
+        "Transformer Networks",
+        "Deep Reinforcement Learning"
+    ]
+  },
+  {
+    "name": "Software Engineering",
+    "level": "Expert",
+    "icon": "fa-solid fa-code",
+    "keywords": [
         "Python",
         "Java",
         "Matlab",
@@ -92,46 +107,29 @@
         "HTML/CSS",
         "MySQL",
         "C"
-      ]
-    },
-    {
-      "name": "Cloud Services",
-      "level": "Master",
-      "icon": "fa-solid fa-cloud",
-      "keywords": [
-        "EC2 (AWS)",
-        "S3 (AWS)",
-        "Lambda (AWS)",
-        "RDS (AWS)",
+    ]
+  },
+  {
+    "name": "Cloud Services",
+    "level": "Master",
+    "icon": "fa-solid fa-cloud",
+    "keywords": [
+        "AWS EC2",
+        "AWS S3",
+        "AWS Lambda",
+        "AWS RDS",
         "MongoDB",
-        "Virtual Machines (Azure)",
+        "Azure Virtual Machines",
         "Azure Blob Storage",
         "Azure Functions",
-        "Azure SQL Database",
-        "Cosmos DB"
-      ]
-    },
-    {
-      "name": "Artificial Intelligence - Deep Learning",
-      "level": "Expert",
-      "icon": "fa-solid fa-brain",
-      "keywords": [
-        "PyTorch",
-        "Convolutional Neural Networks (CNN)",
-        "Recurrent Neural Networks (RNN)",
-        "Long Short-Term Memory Networks (LSTM)",
-        "Generative Adversarial Networks (GAN)",
-        "Transformer Networks",
-        "Deep Reinforcement Learning",
-        "Natural Language Processing (NLP) with Deep Learning",
-        "Computer Vision with Deep Learning"
-      ]
-    },
-    {
-      "name": "Data Visualization - Graph Drawing",
-      "level": "Advanced",
-      "icon": "fa-solid fa-laptop",
-      "keywords": [
+        "Azure SQL Database"
+    ]
+  },
+  {
+    "name": "Data Visualization - Graph Drawing",
+    "level": "Advanced",
+    "icon": "fa-solid fa-laptop",
+    "keywords": [
         "Graph Convolutional Neural Network (GCN)",
         "Graph Drawing Algorithms",
         "Force-Directed Layout",
@@ -140,8 +138,8 @@
         "Interactive Graph Visualization",
         "Network Analysis",
         "Graph Metrics and Analysis"
-      ]
-    }
+    ]
+  }
   ],
   "projects": [
     {
