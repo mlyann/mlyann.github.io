@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-08-01T10:04:29-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>INTP
+</subtitle><entry><title type="html">I attend AWS Summit as a Machine Learning Engineer at Coretechs!</title><link href="http://localhost:4000/blog/2024/aws/" rel="alternate" type="text/html" title="I attend AWS Summit as a Machine Learning Engineer at Coretechs!" /><published>2024-06-23T06:01:00-04:00</published><updated>2024-06-23T06:01:00-04:00</updated><id>http://localhost:4000/blog/2024/aws</id><content type="html" xml:base="http://localhost:4000/blog/2024/aws/"><![CDATA[<p>Today, I attended the AWS Summit, where I immersed myself in the latest AI advancements presented by leading experts. AWS continues to lead in cloud computing and AI, offering innovative solutions like AWS SageMaker that streamline the development and deployment of machine learning models.</p>
+
+<p>The discussions were not only technical but also centered on ethical AI and operational optimization, reflecting AWS’s commitment to responsible innovation. Networking with diverse professionals showed how AI is transforming various industries, from healthcare to sustainability.</p>
+
+<p>This summit has been an invaluable experience, enhancing my understanding of AI’s potential and the crucial role of platforms like AWS in driving technological advancements.</p>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/aws/myself.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="example image" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/aws/namecard.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="example image" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    The left photo shows an attendee badge for me from CoreTechs at the AWS Summit 2024 in Washington, DC. The right photo features me posing in front of a large "AWS" sign at the event.
+</div>]]></content><author><name></name></author><category term="article" /><category term="conference" /><summary type="html"><![CDATA[My experience at the AWS Summit, engaging with AI advancements and networking with industry professionals.]]></summary></entry><entry><title type="html">Mathematical Modeling in the 2024 MCM</title><link href="http://localhost:4000/blog/2024/math/" rel="alternate" type="text/html" title="Mathematical Modeling in the 2024 MCM" /><published>2024-03-13T06:01:00-04:00</published><updated>2024-03-13T06:01:00-04:00</updated><id>http://localhost:4000/blog/2024/math</id><content type="html" xml:base="http://localhost:4000/blog/2024/math/"><![CDATA[<p>In the 2024 Mathematical Contest in Modeling (MCM), we explored the dynamics of ecosystems with a focus on the sea lamprey (Petromyzon marinus). Our study aimed to investigate the relationship between local resource availability, sex ratio variations, and their ecological effects. Here, I will introduce the mathematical models we used and some of their key equations.</p>
+
+<h3 id="aquatic-nutritional-network-ann-model">Aquatic Nutritional Network (ANN) Model</h3>
+
+<p>The Aquatic Nutritional Network (ANN) model helps us understand how food resources influence the sex ratio in fish populations. This model includes factors like larval growth, algal reproduction, and the dynamics of small and large fish populations.</p>
+
+<h4 id="key-equations-in-the-ann-model">Key Equations in the ANN Model</h4>
+
+<p><strong>Larvae Population Dynamics:</strong>
+\(\frac{dL}{dt} = \alpha_{m}\alpha_{f}N_{m}(t)N_{p}(t) + a_{l}A(t) - mL(t)\)
+This equation describes the change in larvae population over time, considering growth contributions from male nutrients and algae consumption.</p>
+
+<p>To solve for the equilibrium state where the change in larvae population over time is zero:
+\(\frac{dL}{dt} = 0 \implies \alpha_{m}\alpha_{f}N_{m}(t)N_{p}(t) + a_{l}A(t) - mL(t) = 0\)
+Solving for \(L(t)\):
+\(L(t) = \frac{\alpha_{m}\alpha_{f}N_{m}(t)N_{p}(t) + a_{l}A(t)}{m}\)</p>
+
+<p><strong>Algae Population Dynamics:</strong>
+\(\frac{dA}{dt} = c_{l} - a_{l}A(t)\)
+This equation models the growth rate of algae and its consumption by larvae.</p>
+
+<p>To solve for the equilibrium state where the change in algae population over time is zero:
+\(\frac{dA}{dt} = 0 \implies c_{l} - a_{l}A(t) = 0\)
+Solving for (A(t)):
+\(A(t) = \frac{c_{l}}{a_{l}}\)</p>
+
+<p><strong>Small Fish Population Dynamics:</strong>
+\(\frac{dF_s}{dt} = c_{s} - (a_{m} + a_{f})F_s(t) + e_{s}F_s(t)\)
+This equation accounts for the intrinsic growth rate of small fish, parasitism by larvae, and the environmental loss factor affecting small fish.</p>
+
+<p>To solve for the equilibrium state where the change in small fish population over time is zero:
+\(\frac{dF_s}{dt} = 0 \implies c_{s} - (a_{m} + a_{f})F_s(t) + e_{s}F_s(t) = 0\)
+Solving for \(F_s(t)\):
+\(F_s(t) = \frac{c_{s}}{(a_{m} + a_{f}) - e_{s}}\)</p>
+
+<p>By solving these equations, we can better understand the equilibrium states of various populations within the ecosystem. These insights are crucial for predicting how changes in environmental factors or population dynamics can affect the overall stability and health of the ecosystem.</p>
+
+<h3 id="determining-equilibrium-points-for-the-ann-model">Determining Equilibrium Points for the ANN Model</h3>
+
+<p>To find the equilibrium points of the ANN model, we follow a systematic approach. At equilibrium, the rate of change for each population is zero, meaning the populations remain constant over time.</p>
+
+<h4 id="setting-up-the-equilibrium-system">Setting Up the Equilibrium System</h4>
+
+<p>We transform the system’s differential equations into algebraic equations to find the equilibrium points. Each equation represents a balance within a specific ecological niche:</p>
+
+\[\begin{align*}
+\left\{
+\begin{array}{l}
+\alpha_{m}\alpha_{f}N_{m}(t)N_{p}(t) + a_{l}A(t) - mL(t) = 0, \\
+c_{l} - a_{l}A(t) = 0, \\
+c_{s} - (a_{m} + a_{f})F_s(t) + e_{s}F_s(t) = 0, \\
+b_{m}N_{m}(t) + b_{f}N_{f}(t) - c_{f}F_b(t) + e_{b}F_b(t) = 0, \\
+a_{m}F_s(t) + P(t)L(t) - b_{m}N_m(t) = 0, \\
+a_{f}F_s(t) + (1 - P(t))L(t) - b_{f}N_f(t) = 0.
+\end{array}
+\right.
+\end{align*}\]
+
+<h4 id="application-of-constraints">Application of Constraints</h4>
+
+<p>Biological systems are often constrained by ecological realities. Population sizes are generally within certain bounds, such as carrying capacities or resource limitations:</p>
+
+\[0 \leq N_m, N_p, A, L, F_s, F_b \leq 1\]
+
+<p>All variables are normalized to the interval [0,1], representing proportions of maximum possible population sizes.</p>
+
+<h4 id="numerical-solution-of-the-equilibrium-system">Numerical Solution of the Equilibrium System</h4>
+
+<p>By determining these equilibrium points, we gain critical insights into the sustainability and resilience of the ecosystem, with implications for species conservation and resource management strategies.</p>
+
+<p>After applying this models, we can better understand the ecological impacts of sex ratio variations and resource availability, which is crucial for conservation efforts and maintaining ecological balance.</p>]]></content><author><name></name></author><category term="article" /><category term="math" /><summary type="html"><![CDATA[Exploring the use of mathematical models to understand ecosystem dynamics and sex ratio variations in sea lamprey populations as part of the 2024 Mathematical Contest in Modeling (MCM).]]></summary></entry><entry><title type="html">Exploring Washington DC - A Journey Through the White House and Iconic Museums</title><link href="http://localhost:4000/blog/2023/washingtondc/" rel="alternate" type="text/html" title="Exploring Washington DC - A Journey Through the White House and Iconic Museums" /><published>2023-12-20T05:01:00-05:00</published><updated>2023-12-20T05:01:00-05:00</updated><id>http://localhost:4000/blog/2023/washingtondc</id><content type="html" xml:base="http://localhost:4000/blog/2023/washingtondc/"><![CDATA[<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/washingtondc/IMG_0169.JPG" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/washingtondc/IMG_0171.JPG" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    The left photo captures the bustling atmosphere of a metro station in Washington DC, highlighting the city's classic public transportation system. The right photo shows the entrance to the National Gallery of Art, a prominent museum that houses an extensive collection of fine art.
+</div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/washingtondc/IMG_0170.JPG" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/washingtondc/IMG_0172.JPG" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    The left photo captures that I am in front of the White House, showcasing the iconic residence and workplace of the U.S. President. The right photo features an indoor scene at a museum, with the user standing in the National Museum of Natural History.
+</div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/washingtondc/IMG_0173.JPG" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/washingtondc/IMG_0174.JPG" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    A breathtaking view of the National Mall, featuring the Lincoln Memorial and Reflecting Pool, as seen from the Washington Monument. The towering Washington Monument stands tall, a testament to the nation's history, with a ticket for the monument tour held in the foreground.
+</div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/washingtondc/IMG_0176.JPG" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/washingtondc/IMG_0175.JPG" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    An introspective moment at the National Archives, viewing the founding documents of the United States. The Jefferson Memorial stands gracefully across the Tidal Basin, as seen from an elevated vantage point.
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/washingtondc/IMG_0177.JPG" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="example image" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    The National Archives Building in Washington DC, featuring banners for the "All American" and "The Power of Sports" exhibitions.
+</div>]]></content><author><name></name></author><category term="image" /><category term="traveling" /><summary type="html"><![CDATA[My journey through Washington DC, visiting the White House and exploring its iconic museums.]]></summary></entry><entry><title type="html">My Last Performance with the Shanghai Nanyang Model High School Symphony Orchestra</title><link href="http://localhost:4000/blog/2021/orchestra/" rel="alternate" type="text/html" title="My Last Performance with the Shanghai Nanyang Model High School Symphony Orchestra" /><published>2021-10-10T06:01:00-04:00</published><updated>2021-10-10T06:01:00-04:00</updated><id>http://localhost:4000/blog/2021/orchestra</id><content type="html" xml:base="http://localhost:4000/blog/2021/orchestra/"><![CDATA[<p>I had the incredible honor of performing with a globally renowned violist, which was an exhilarating experience. 🥰</p>
+
+<p>Maestro <a href="https://en.wikipedia.org/wiki/Cao_Peng">Cao Peng</a>’s African Dance performance from the audience brought tears to my eyes with its beauty and emotion. 😭</p>
+
+<p>Meeting and taking photos with outstanding senior musicians and the city’s top teachers filled me with pride and gratitude. 🥳</p>
+
+<p>A big thank you to Nanmo, the orchestra, and all the teachers for making this possible. ✌️✌️😘😘</p>
+
+<h2 id="personal-snapshots-and-moments-with-talented-colleagues-and-alumni">Personal Snapshots and Moments with Talented Colleagues and Alumni</h2>
+
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
+  <swiper-slide>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/nanmo/violist.JPG" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+</swiper-slide>
+  <swiper-slide>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/nanmo/selfie.JPG" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+</swiper-slide>
+  <swiper-slide>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/nanmo/IMG_0184.JPG" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+</swiper-slide>
+  <swiper-slide>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/nanmo/IMG_0185.JPG" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+</swiper-slide>
+  <swiper-slide>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/nanmo/IMG_0186.JPG" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+</swiper-slide>
+  <swiper-slide>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/nanmo/IMG_0187.JPG" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+</swiper-slide>
+</swiper-container>
+
+<h2 id="thanks-shanghai-nanyang-model-high-school">Thanks @Shanghai Nanyang Model High School!</h2>]]></content><author><name></name></author><category term="image" /><category term="violin" /><summary type="html"><![CDATA[In my last performance, I had the honor of collaborating with a renowned violist. Maestro Cao Peng's African Dance moved me to tears, and meeting top musicians and teachers filled me with pride.]]></summary></entry></feed>

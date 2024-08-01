@@ -172,9 +172,11 @@
             
               
                 
-                <li class="nav-item ">
+                <li class="nav-item active">
                   
-                  <a class="nav-link" href="/publications/">Publications
+                  <a class="nav-link" href="/projects/">Projects
+                    
+                      <span class="sr-only">(current)</span>
                     
                   </a>
                 </li>
@@ -184,11 +186,9 @@
             
               
                 
-                <li class="nav-item active">
+                <li class="nav-item ">
                   
-                  <a class="nav-link" href="/projects/">Projects
-                    
-                      <span class="sr-only">(current)</span>
+                  <a class="nav-link" href="/cv/">Curriculum Vitae
                     
                   </a>
                 </li>
@@ -212,7 +212,7 @@
                 
                 <li class="nav-item ">
                   
-                  <a class="nav-link" href="/cv/">Curriculum Vitae
+                  <a class="nav-link" href="/publications/">Publications
                     
                   </a>
                 </li>
@@ -458,7 +458,8 @@
 </ul>
 
 <h2 id="repository">Repository</h2>
-<p><a href="https://github.com/mlyann/darts-game-website" rel="external nofollow noopener" target="_blank">mlyann/darts-game-website</a> (Private)</p>
+<p><a href="https://github.com/mlyann/darts-game-website" rel="external nofollow noopener" target="_blank">mlyann/darts-game-website</a> 
+(Private now but ready to open source soon!)</p>
 
 <p>This project aims to provide dart players with a seamless and interactive experience, enhancing both the competition and enjoyment of the game.</p>
 
@@ -478,8 +479,9 @@
 </code></pre></div></div>
 
 <h2 id="developer">Developer</h2>
-<p>Minglai Yang
-Gavin Olson</p>
+<ul>
+  <li>Minglai Yang</li>
+</ul>
 
 
   </article>
@@ -739,19 +741,19 @@ Gavin Olson</p>
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "nav-publications",
-              title: "Publications",
-              description: "I recently completed my first year in research and am currently involved in two experimental projects. Although research requires time to mature, I am optimistic about achieving significant results as my work progresses.",
-              section: "Navigation",
-              handler: () => {
-                window.location.href = "/publications/";
-              },
             },{id: "nav-projects",
               title: "Projects",
               description: "An expanding portfolio of innovative and collaborative projects with my team.",
               section: "Navigation",
               handler: () => {
                 window.location.href = "/projects/";
+              },
+            },{id: "nav-curriculum-vitae",
+              title: "Curriculum Vitae",
+              description: "High-achieving Computer Science student specializing in AI and Software Engineering at UofA.",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/cv/";
               },
             },{id: "nav-repositories",
               title: "Repositories",
@@ -760,12 +762,12 @@ Gavin Olson</p>
               handler: () => {
                 window.location.href = "/repositories/";
               },
-            },{id: "nav-curriculum-vitae",
-              title: "Curriculum Vitae",
-              description: "High-achieving Computer Science student specializing in AI and Software Engineering at UofA.",
+            },{id: "nav-publications",
+              title: "Publications",
+              description: "I recently completed my first year in research and am currently involved in two experimental projects. Although research requires time to mature, I am optimistic about achieving significant results as my work progresses.",
               section: "Navigation",
               handler: () => {
-                window.location.href = "/cv/";
+                window.location.href = "/publications/";
               },
             },{id: "post-i-attend-aws-summit-as-a-machine-learning-engineer-at-coretechs",
           
