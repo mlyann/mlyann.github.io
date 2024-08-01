@@ -1,4 +1,4 @@
-# Personal Website
+# [Personal Website](http://ymingl.com/)
 
 This project is dedicated to developing a personal website for Minglai Yang, a top-performing Computer Science student at the University of Arizona. The website showcases Minglai's extensive experience in AI and Software Engineering, academic achievements, research projects, and professional interests.
 
