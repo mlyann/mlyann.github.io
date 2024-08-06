@@ -318,7 +318,7 @@
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-    <img src="/assets/img/aws/myself.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="example image" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/aws/myself.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
   </picture>
 
   
@@ -336,7 +336,7 @@
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-    <img src="/assets/img/aws/namecard.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="example image" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/aws/namecard.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
   </picture>
 
   
@@ -755,6 +755,11 @@
               description: "Theory of Mind-based Cognitive Architecture for Teams. A collaboration between the Information School (INFO), Computer Science (CS), and Family Studies and Human Development (FSHD) has been awarded a large grant to develop a theory of mind-based cognitive architecture for teams (ToMCAT). The grant ($7.5M, for 48 months) is part of the DARPA Artificial Social Intelligence for Successful Teams",
               section: "Projects",handler: () => {
                   window.location.href = "/projects/Theory%20of%20Mind-based%20Cognitive%20Architecture%20for%20Teams%20(ToMCAT)/";
+                },},{id: "projects-web-load-analyst",
+              title: 'Web Load Analyst',
+              description: "Optimize your website&#39;s performance by understanding its load times with our cutting-edge analysis tool.",
+              section: "Projects",handler: () => {
+                  window.location.href = "/projects/Web%20Load%20Analyst/";
                 },},{
             id: 'socials-email',
             title: 'Send email',
