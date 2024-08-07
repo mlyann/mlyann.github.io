@@ -156,7 +156,7 @@
       "highlights": ["EC2 server management", "RDS database handling", "S3 data storage"],
       "startDate": "2024-05-06",
       "endDate": "2024-06-10",
-      "url": "/projects/Darts%20App/"
+      "url": "./projects/Darts%20App/"
     },
     {
       "name": "Bot Development for Slack and Discord",
@@ -164,7 +164,7 @@
       "highlights": ["Advanced natural language processing", "Custom response fine-tuning", "Efficient document retrieval"],
       "startDate": "2024-04-23",
       "endDate": "2024-05-10",
-      "url": "/projects/ChatGPT%20Slack%20Integration/"
+      "url": "./projects/ChatGPT%20Slack%20Integration/"
     },
     {
       "name": "Google Calendar Integration with ChatGPT Discord Chat Bot via Node.js",
@@ -172,7 +172,7 @@
       "highlights": ["Continuous operation on Amazon EC2", "Google Cloud API integration", "Advanced error handling and logging"],
       "startDate": "2024-04-29",
       "endDate": "",
-      "url": "/projects/Discord%20Chatbot%20Integration%20with%20Google%20Calendar/"
+      "url": "./projects/Discord%20Chatbot%20Integration%20with%20Google%20Calendar/"
     }
   ],
   // "publications": [
