@@ -55,7 +55,7 @@ ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-d4c9d6e7-3e8d-42ea=
 
 
 <!-- Bootstrap & MDB -->
-<link rel=3D"stylesheet" href=3D"http://127.0.0.1:4000./assets/css/bootstrap=
+<link rel=3D"stylesheet" href=3D"http://127.0.0.1:4000../assets/css/bootstrap=
 .min.css?a4b3f509e79c54a512b890d73235ef04">
 <link rel=3D"stylesheet" href=3D"https://cdn.jsdelivr.net/npm/mdbootstrap@4=
 .20.0/css/mdb.min.css" crossorigin=3D"anonymous">
@@ -64,14 +64,14 @@ ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-d4c9d6e7-3e8d-42ea=
 
 
 <!-- Fonts & Icons -->
-<link defer=3D"" rel=3D"stylesheet" href=3D"http://127.0.0.1:4000./assets/cs=
+<link defer=3D"" rel=3D"stylesheet" href=3D"http://127.0.0.1:4000../assets/cs=
 s/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
 <link defer=3D"" rel=3D"stylesheet" type=3D"text/css" href=3D"https://fonts=
 .googleapis.com/css?family=3DRoboto:300,400,500,700|Roboto+Slab:100,300,400=
 ,500,700|Material+Icons&amp;display=3Dswap">
 
 <!-- Code Syntax Highlighting -->
-<link defer=3D"" rel=3D"stylesheet" href=3D"http://127.0.0.1:4000./assets/cs=
+<link defer=3D"" rel=3D"stylesheet" href=3D"http://127.0.0.1:4000../assets/cs=
 s/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media=
 =3D"" id=3D"highlight_theme_light">
 
@@ -87,14 +87,14 @@ s/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media=
 http://www.w3.org/2000/svg%22%20viewBox=3D%220%200%20100%20100%22><text%20y=
 =3D%22.9em%22%20font-size=3D%2290%22>%F0%9F%92%BB</text></svg>">
 
-<link rel=3D"stylesheet" href=3D"http://127.0.0.1:4000./assets/css/main.css?=
+<link rel=3D"stylesheet" href=3D"http://127.0.0.1:4000../assets/css/main.css?=
 d41d8cd98f00b204e9800998ecf8427e">
 <link rel=3D"canonical" href=3D"http://localhost:4000./blog/">
 
 <!-- Dark Mode -->
 
 
-  <link defer=3D"" rel=3D"stylesheet" href=3D"http://127.0.0.1:4000./assets/=
+  <link defer=3D"" rel=3D"stylesheet" href=3D"http://127.0.0.1:4000../assets/=
 css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" med=
 ia=3D"none" id=3D"highlight_theme_dark">
  =20
@@ -446,7 +446,7 @@ ws/">I attend AWS Summit as a Machine Learning Engineer at Coretechs!</a>
 </div>
 
   <div class=3D"col-sm-3">
-    <img class=3D"card-img" src=3D"http://127.0.0.1:4000./assets/img/aws/nam=
+    <img class=3D"card-img" src=3D"http://127.0.0.1:4000../assets/img/aws/nam=
 ecard.png" style=3D"object-fit: cover; height: 90%" alt=3D"image">
   </div>
 </div>
@@ -514,7 +514,7 @@ nd Iconic Museums</a>
 </div>
 
   <div class=3D"col-sm-3">
-    <img class=3D"card-img" src=3D"http://127.0.0.1:4000./assets/img/aws/nam=
+    <img class=3D"card-img" src=3D"http://127.0.0.1:4000../assets/img/aws/nam=
 ecard.png" style=3D"object-fit: cover; height: 90%" alt=3D"image">
   </div>
 </div>
@@ -557,7 +557,7 @@ ecard.png" style=3D"object-fit: cover; height: 90%" alt=3D"image">
 
     <!-- Bootsrap & MDB scripts -->
 
-<!-- <script src=3D"./assets/js/mdb.min.js"></script> -->
+<!-- <script src=3D"../assets/js/mdb.min.js"></script> -->
 
 
    =20
@@ -1030,7 +1030,7 @@ nge: transform; }
 ------MultipartBoundary--rPPPftDM5anBkJ6qoKyJz7Fdz0eDLH94mi3I2GAJLy----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: http://127.0.0.1:4000./assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04
+Content-Location: http://127.0.0.1:4000../assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04
 
 @charset "utf-8";
 
@@ -11852,7 +11852,7 @@ ansform: rotate(180deg); }
 ------MultipartBoundary--rPPPftDM5anBkJ6qoKyJz7Fdz0eDLH94mi3I2GAJLy----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: http://127.0.0.1:4000./assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5
+Content-Location: http://127.0.0.1:4000../assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5
 
 @charset "utf-8";
 
@@ -12580,7 +12580,7 @@ thing: antialiased; }
 ------MultipartBoundary--rPPPftDM5anBkJ6qoKyJz7Fdz0eDLH94mi3I2GAJLy----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: http://127.0.0.1:4000./assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99
+Content-Location: http://127.0.0.1:4000../assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99
 
 @charset "utf-8";
 
@@ -12713,7 +12713,7 @@ italic; }
 ------MultipartBoundary--rPPPftDM5anBkJ6qoKyJz7Fdz0eDLH94mi3I2GAJLy----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: http://127.0.0.1:4000./assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e
+Content-Location: http://127.0.0.1:4000../assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e
 
 @charset "utf-8";
 
@@ -39854,7 +39854,7 @@ iased; font-family: tabler-icons !important; }
 ------MultipartBoundary--rPPPftDM5anBkJ6qoKyJz7Fdz0eDLH94mi3I2GAJLy----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: http://127.0.0.1:4000./assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca
+Content-Location: http://127.0.0.1:4000../assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca
 
 @charset "utf-8";
 
@@ -40983,7 +40983,7 @@ _score { font-size: 14px; line-height: 22px; }
 ------MultipartBoundary--rPPPftDM5anBkJ6qoKyJz7Fdz0eDLH94mi3I2GAJLy----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
-Content-Location: http://127.0.0.1:4000./assets/img/aws/namecard.png
+Content-Location: http://127.0.0.1:4000../assets/img/aws/namecard.png
 
 /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcU
 FhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgo
