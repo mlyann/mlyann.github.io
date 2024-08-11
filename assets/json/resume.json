@@ -5,7 +5,7 @@
     "image": "",
     "email": "mlyang721@arizona.edu",
     "phone": "(240) 453-1294",
-    "url": "https://mlyann.github.io/",
+    "url": "https://ymingl.com/",
     "summary": "A top-performing computer science student at the University of Arizona with extensive experience in AI, software engineering, and statistical machine learning.",
     "location": {
       "address": "13640 Air and Space Museum Pkwy",
@@ -259,9 +259,19 @@
   ],
   "references": [
     {
-      "name": "Reyan Ahmed abureyanahmed@arizona.edu",
+      "name": "Professor Reyan Ahmed abureyanahmed@arizona.edu",
       "icon": "fa-solid fa-laptop",
-      "reference": "Assistant professor, Computer science, University of Arizona"
+      "reference": "Assistant Professor, Department of Computer Science, University of Arizona. Prof. Ahmed was my mentor during my research assistantship at the university, where he provided guidance on advanced data visualization projects."
+    },
+    {
+      "name": "James Bloomer jbloomer@coretechs.com",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Partner and Vice President of Coretechs Consulting. I worked closely with James during my internship at Coretechs Consulting, where he oversaw my contributions to software development projects."
+    },
+    {
+      "name": "Alex Globle agloble@coretechs.com",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Alex Globle was a key collaborator and mentor in one of my major projects during my internship at Coretechs Consulting, where we worked together on advanced AI solutions. He provided invaluable guidance in refining the project’s architecture and ensuring the successful deployment of the solution. You can view his GitHub profile at https://github.com/vertyco."
     }
   ]
 }
