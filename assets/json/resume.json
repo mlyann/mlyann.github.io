@@ -1,18 +1,18 @@
 {
   "basics": {
     "name": "Minglai Yang",
-    "label": "AI Engineer, ML Research Assistant and SDE Intern",
-    "image": "",
-    "email": "mlyang721@arizona.edu",
+    "label": "UGRA in AI-Agents@IVILAB｜AI Engineer@AI Core｜VP@AI Club｜CS&Math@UA｜Ex-SDE Intern@Coretechs",
+    "image": "/assets/img/prof_pic.jpg",
+    "email": "mingly@arizona.edu",
     "phone": "(240) 453-1294",
     "url": "https://ymingl.com/",
     "summary": "A top-performing computer science student at the University of Arizona with extensive experience in AI, software engineering, and statistical machine learning.",
     "location": {
-      "address": "13640 Air and Space Museum Pkwy",
-      "postalCode": "VA 20171",
-      "city": "Herndon",
+      "address": "1121 E 4th St.",
+      "postalCode": "AZ 85719",
+      "city": "Tucson",
       "countryCode": "US",
-      "county": "Fairfax"
+      "county": "Pima"
     },
     "profiles": [
       {
