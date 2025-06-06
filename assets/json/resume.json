@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Minglai Yang",
-    "label": "UGRA in AI-Agents@IVILAB｜President@AI Club｜CS&Math@UA｜Ex-MLE Intern@Coretechs",
+    "label": "UGRA in @IVILAB, CLULAB and ML4AI-LAB｜President@AI Club｜CS&Math@UA｜Ex-MLE Intern@Coretechs",
     "image": "/assets/img/prof_pic.jpg",
     "email": "mingly@arizona.edu",
     "phone": "(240) 453-1294",
@@ -38,7 +38,7 @@
   "work": [
     {
       "name": "CoreTechs Consulting Inc.",
-      "position": "Software Engineer Intern (Full Time)",
+      "position": "Machine Learning Engineer Intern (Full Time)",
       "url": "https://www.coretechs.com/",
       "startDate": "2024-05-12",
       "endDate": "2024-08-09",
@@ -184,31 +184,61 @@
   //     "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
   //   },
   // ],
-  // "awards": [
+"awards": [
+  {
+    "title": "Galileo Circle Scholar",
+    "date": "2025-04-01",
+    "awarder": "College of Science, University of Arizona",
+    "url": "https://science.arizona.edu/galileo-circle",
+    "summary": "Awarded to top undergraduate researchers in the College of Science (Top 0.8%)."
+  },
+  {
+    "title": "Academic Highest Distinction (Dean's List)",
+    "date": "2023-08-01",
+    "awarder": "University of Arizona",
+    "summary": "Recognized for achieving a 4.0 GPA across six consecutive semesters."
+  },
+  {
+    "title": "Global Wildcat Scholarship",
+    "date": "2023-05-01",
+    "awarder": "University of Arizona",
+    "summary": "Merit-based scholarship awarded to top international students for academic excellence."
+  },
+  {
+    "title": "Shanghai Science and Technology Award (Third Prize)",
+    "date": "2021-05-01",
+    "awarder": "Shanghai Municipal Government",
+    "summary": "Awarded for innovation in high school science and engineering projects."
+  },
+  {
+    "title": "Shanghai Youth Science and Technology Innovation Competition (Third Prize)",
+    "date": "2020-05-01",
+    "awarder": "Shanghai Nanyang Model High School",
+    "summary": "Recognized for excellence in student-led science research projects at the city level."
+  },
+  {
+    "title": "China National Youth Arts Competition (Group First Prize)",
+    "date": "2018-06-01",
+    "awarder": "Shanghai Nanyang Model High School",
+    "summary": "Awarded for outstanding team performance in a national-level youth orchestras competition."
+  }
+],
+  // "certificates": [
   //   {
-  //     "title": "Nobel Prize in Physics",
-  //     "date": "1921-11-01",
-  //     "awarder": "Royal Swedish Academy of Sciences",
-  //     "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-  //     "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+  //     "name": "Social & Behavioral Research Investigators",
+  //     "date": "2023-09-25",
+  //     "issuer": "Citi program",
+  //     "url": "https://www.citiprogram.org/verify/?wdc107489-491c-4e8f-a1fb-6dc5949c043d-58621022",
+  //     "icon": "fa-solid fa-bookmark"
+  //   },
+  //   {
+  //     "name": "Native American Research",
+  //     "date": "2023-09-25",
+  //     "issuer": "Citi program",
+  //     "url": "https://www.citiprogram.org/verify/?w9bdc8fad-b81b-4741-a45f-2f27d95dea42-58621023",
+  //     "icon": "fa-solid fa-bookmark"
   //   }
   // ],
-  "certificates": [
-    {
-      "name": "Social & Behavioral Research Investigators",
-      "date": "2023-09-25",
-      "issuer": "Citi program",
-      "url": "https://www.citiprogram.org/verify/?wdc107489-491c-4e8f-a1fb-6dc5949c043d-58621022",
-      "icon": "fa-solid fa-bookmark"
-    },
-    {
-      "name": "Native American Research",
-      "date": "2023-09-25",
-      "issuer": "Citi program",
-      "url": "https://www.citiprogram.org/verify/?w9bdc8fad-b81b-4741-a45f-2f27d95dea42-58621023",
-      "icon": "fa-solid fa-bookmark"
-    }
-  ],
   // "volunteer": [
   //   {
   //     "organization": "People's Climate March",
@@ -235,43 +265,67 @@
   ],
   "interests": [
     {
-      "name": "Artificial Intelligence",
-      "icon": "fa-solid fa-robot",
+      "name": "Natural Language Processing",
+      "icon": "fa-solid fa-language",
       "keywords": [
-        "Machine Learning",
-        "Natural Language Processing",
-        "Computer Vision",
-        "Reinforcement Learning",
-        "Human-Interaction",
-        "Cognitive Science"
+        "Language Models",
+        "Text Understanding",
+        "Generation"
       ]
     },
     {
-      "name": "Software Development",
-      "icon": "fa fa-laptop-code",
+      "name": "Cognitive Modeling",
+      "icon": "fa-solid fa-brain",
       "keywords": [
-        "Web Development",
-        "Cloud Computing",
-        "DevOps",
-        "Full Stack Development"
+        "Theory of Mind",
+        "Human Behavior",
+        "Belief Modeling"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "icon": "fa-solid fa-robot",
+      "keywords": [
+        "Generalization",
+        "Uncertainty",
+        "Reinforcement Learning"
+      ]
+    },
+    {
+      "name": "LLM Reasoning & Alignment",
+      "icon": "fa-solid fa-scale-balanced",
+      "keywords": [
+        "Faithful Reasoning",
+        "Step-wise Inference",
+        "Human Alignment"
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor Reyan Ahmed abureyanahmed@arizona.edu",
+      "name": "Professor Liangming Pan (liangmingpan@arizona.edu)",
       "icon": "fa-solid fa-laptop",
-      "reference": "Assistant Professor, Department of Computer Science, University of Arizona. Prof. Ahmed was my mentor during my research assistantship at the university, where he provided guidance on advanced data visualization projects."
+      "reference": "Assistant Professor, School of Information, University of Arizona. Supervised my research on reasoning in large language models."
     },
     {
-      "name": "James Bloomer jbloomer@coretechs.com",
+      "name": "Professor Mihai Surdeanu (msurdeanu@arizona.edu)",
       "icon": "fa-solid fa-laptop",
-      "reference": "Partner and Vice President of Coretechs Consulting. I worked closely with James during my internship at Coretechs Consulting, where he oversaw my contributions to software development projects."
+      "reference": "Professor, Department of Computer Science, University of Arizona. Advised me on efficient architectures for LLM inference."
     },
     {
-      "name": "Alex Globle agloble@coretechs.com",
+      "name": "Professor Kobus Barnard (kobus@arizona.edu)",
       "icon": "fa-solid fa-laptop",
-      "reference": "Alex Globle was a key collaborator and mentor in one of my major projects during my internship at Coretechs Consulting, where we worked together on advanced AI solutions. He provided invaluable guidance in refining the project’s architecture and ensuring the successful deployment of the solution. You can view his GitHub profile at https://github.com/vertyco."
+      "reference": "Professor, Department of Computer Science, University of Arizona. Mentored me for several years on probabilistic graphical models and cognitive science."
+    },
+    {
+      "name": "Professor Reyan Ahmed (abureyanahmed@arizona.edu)",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Assistant Professor, Department of Computer Science, University of Arizona. Prof. Ahmed was my mentor during my research on a graph drawing project."
+    },
+    {
+      "name": "James Bloomer (jbloomer@coretechs.com)",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Partner and Vice President of Coretechs. I worked closely with James during my internship at Coretechs, where he oversaw my contributions to projects."
     }
   ]
 }
