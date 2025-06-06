@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Minglai Yang",
-    "label": "UGRA in AI-Agents@IVILAB｜AI Engineer@AI Core｜VP@AI Club｜CS&Math@UA｜Ex-SDE Intern@Coretechs",
+    "label": "UGRA in AI-Agents@IVILAB｜President@AI Club｜CS&Math@UA｜Ex-MLE Intern@Coretechs",
     "image": "/assets/img/prof_pic.jpg",
     "email": "mingly@arizona.edu",
     "phone": "(240) 453-1294",
@@ -9,10 +9,10 @@
     "summary": "A top-performing computer science student at the University of Arizona with extensive experience in AI, software engineering, and statistical machine learning.",
     "location": {
       "address": "1121 E 4th St.",
-      "postalCode": "AZ 85719",
+      "postalCode": "AZ 85721",
       "city": "Tucson",
-      "countryCode": "US",
-      "county": "Pima"
+      "countryCode": "USA",
+      "county": ""
     },
     "profiles": [
       {
@@ -27,7 +27,7 @@
       "institution": "University of Arizona, Tucson, Arizona",
       "location": "Arizona, USA",
       "url": "https://science.arizona.edu/",
-      "area": "Computer Science, GPA: 4.0/4.0 (Top 1)",
+      "area": "Computer Science, GPA: 4.0/4.0",
       "studyType": "Bachelor of Science (BS)",
       "startDate": "2023-08-24",
       "endDate": "",
@@ -228,7 +228,7 @@
       "icon": "fa-solid fa-language"
     },
     {
-      "language": "Shanghainese",
+      "language": "Chinese & Shanghainese",
       "fluency": "Bilingual Proficiency",
       "icon": "fa-solid fa-language"
     }
