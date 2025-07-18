@@ -1,331 +1,178 @@
-{
-  "basics": {
-    "name": "Minglai Yang",
-    "label": "UGRA in @IVILAB, CLULAB and ML4AI-LAB｜President@AI Club｜CS&Math@UA｜Ex-MLE Intern@Coretechs",
-    "image": "/assets/img/prof_pic.jpg",
-    "email": "mingly@arizona.edu",
-    "phone": "(240) 453-1294",
-    "url": "https://ymingl.com/",
-    "summary": "A top-performing computer science student at the University of Arizona with extensive experience in AI, software engineering, and statistical machine learning.",
-    "location": {
-      "address": "1121 E 4th St.",
-      "postalCode": "AZ 85721",
-      "city": "Tucson",
-      "countryCode": "USA",
-      "county": ""
-    },
-    "profiles": [
-      {
-        "network": "",
-        "username": "",
-        "url": ""
-      }
-    ]
-  },
-  "education": [
-    {
-      "institution": "University of Arizona, Tucson, Arizona",
-      "location": "Arizona, USA",
-      "url": "https://science.arizona.edu/",
-      "area": "Computer Science, GPA: 4.0/4.0",
-      "studyType": "Bachelor of Science (BS)",
-      "startDate": "2023-08-24",
-      "endDate": "",
-      "score": "",
-      "courses": ["Computer Vision","Deep Learning for Natural Language Processing","Software Development","Computer Organization","Object-Oriented Programming (OOP)"]
-    }
-  ],
-  "work": [
-    {
-      "name": "CoreTechs Consulting Inc.",
-      "position": "Machine Learning Engineer Intern (Full Time)",
-      "url": "https://www.coretechs.com/",
-      "startDate": "2024-05-12",
-      "endDate": "2024-08-09",
-      "summary": "Enhanced website functionality and user engagement through AWS services and intelligent bot integrations.",
-      "highlights": ["Orchestrate end-to-end website development, including design, deployment, and management on AWS with Nginx, Docker, and services like EC2, RDS, and S3. ","Utilize HTML, CSS, JavaScript, and PHP, alongside GitLab for version control and deployment.", "Build intelligent bots for Discord and Slack, employing GPTs and Pinecone for natural language processing and document retrieval, integrating Slack into official websites through live chat in Javascript.","Create React “Live-Chat” applications to optimize workflows and enhance user experience.","Simulated 500 concurrent users with Selenium to rigorously stress test the web application's performance."]
-    },
-    {
-      "name": "The University of Arizona, Institute for Computation and Data-Enabled Insight",
-      "position": "AI Engineer",
-      "url": "https://aicore.arizona.edu/",
-      "startDate": "2024-03-14",
-      "endDate": "",
-      "summary": "Advanced AI capabilities in GPT models, computer vision, and gaming applications, driving efficiency and performance gains.",
-      "highlights": ["Lead and optimize GPT-based models to process 40% more tokens per request, reducing operational costs by 25% while maintaining high model performance.","Increasing accuracy of roadway defect detection by 15% using OpenCV library and YOLOv10 model.","Acquire client data and establish a database on AWS RDS, improving data analysis efficiency by 20%.","Develop an AI for Minecraft using video training, reinforcement, and imitation learning, achieving 25% improvement in task execution speed and adaptability in dynamic environments."]
-    },
-    {
-      "name": "The University of Arizona, ML4AI LAB and IVILAB",
-      "position": "Research Assistant",
-      "url": "https://ivilab.org/",
-      "startDate": "2023-09-27",
-      "endDate": "",
-      "summary": "Implemented dynamic Bayesian networks and Theory of Mind concepts in AI research, enabling accurate prediction of human behaviors and enhancing real-world AI applications.",
-      "highlights": ["Develop the application of dynamic Bayesian networks and Theory of Mind concepts within the ToMCAT project, enhancing AI's ability to interpret complex human behaviors and predict their plans and goals.","Collaborate with Dr. Kobus Barnard, Dr. Clayton Morrison and Dr. Adarsh Pyarelal to translate advanced machine learning research into practical, deployable AI systems for real-world impact."]
-    }
-  ],
-"skills": [
-  {
-    "name": "Statistical Machine Learning",
-    "level": "Master",
-    "icon": "fa-solid fa-hashtag",
-    "keywords": [
-        "Probabilistic Modeling",
-        "Dynamic Bayesian Networks",
-        "Pattern Recognition",
-        "Computer Vision"
-    ]
-  },
-  {
-    "name": "Artificial Intelligence - Deep Learning",
-    "level": "Expert",
-    "icon": "fa-solid fa-brain",
-    "keywords": [
-        "Deep Learning",
-        "Deep Learning for Natural Language Processing",
-        "Deep Learning for Computer Vision",
-        "PyTorch",
-        "Convolutional Neural Networks (CNN)",
-        "Recurrent Neural Networks (RNN)",
-        "Long Short-Term Memory Networks (LSTM)",
-        "Generative Adversarial Networks (GAN)",
-        "Transformer Networks",
-        "Deep Reinforcement Learning"
-    ]
-  },
-  {
-    "name": "Software Engineering",
-    "level": "Expert",
-    "icon": "fa-solid fa-code",
-    "keywords": [
-        "Python",
-        "Java",
-        "Matlab",
-        "JavaScript",
-        "Swift",
-        "PHP",
-        "HTML/CSS",
-        "MySQL",
-        "C"
-    ]
-  },
-  {
-    "name": "Cloud Services",
-    "level": "Master",
-    "icon": "fa-solid fa-cloud",
-    "keywords": [
-        "AWS EC2",
-        "AWS S3",
-        "AWS Lambda",
-        "AWS RDS",
-        "MongoDB",
-        "Azure Virtual Machines",
-        "Azure Blob Storage",
-        "Azure Functions",
-        "Azure SQL Database"
-    ]
-  },
-  {
-    "name": "Data Visualization - Graph Drawing",
-    "level": "Advanced",
-    "icon": "fa-solid fa-laptop",
-    "keywords": [
-        "Graph Convolutional Neural Network (GCN)",
-        "Graph Drawing Algorithms",
-        "Force-Directed Layout",
-        "Hierarchical Layout",
-        "Graph Visualization Tools",
-        "Interactive Graph Visualization",
-        "Network Analysis",
-        "Graph Metrics and Analysis"
-    ]
-  }
-  ],
-  "projects": [
-    {
-      "name": "ToMCAT Project ($7.5M DARPA funded), University of Arizona, ML4AI and IVILAB",
-      "summary": "Developed AI models utilizing dynamic Bayesian networks and Theory of Mind concepts. Integrated physiological data from fNIRS and EEG, along with facial expressions, to enhance predictions of individual behaviors and team dynamics in search and rescue missions, increasing decision-making accuracy by 30%.",
-      "highlights": ["Cross-validation and correlation analysis", "Pupil data analysis with cognitive science principles"],
-      "startDate": "2023-09-25",
-      "endDate": "",
-      "url": "https://ml4ai.github.io/tomcat/"
-    },
-    {
-      "name": "Darts Game Website Deployment with AWS and Docker",
-      "summary": "Designed and deployed a darts game website using Nginx and Docker. Hosted on AWS with EC2 for server management, RDS for database handling, and S3 for data storage. Managed versioning and automated deployment via GitLab, boosting workflow efficiency and reliability.",
-      "highlights": ["EC2 server management", "RDS database handling", "S3 data storage"],
-      "startDate": "2024-05-06",
-      "endDate": "2024-06-10",
-      "url": "/projects/Darts%20App/"
-    },
-    {
-      "name": "Bot Development for Slack and Discord",
-      "summary": "Leveraged RAG (Retrieval-Augmented Generation) for advanced natural language processing. Employed prompting and fine-tuning methods to customize responses and enhance performance. Integrated Pinecone for efficient document retrieval, solving hallucinations in communication channels.",
-      "highlights": ["Advanced natural language processing", "Custom response fine-tuning", "Efficient document retrieval"],
-      "startDate": "2024-04-23",
-      "endDate": "2024-05-10",
-      "url": "/projects/ChatGPT%20Slack%20Integration/"
-    },
-    {
-      "name": "Google Calendar Integration with ChatGPT Discord Chat Bot via Node.js",
-      "summary": "Deployed the chatbot on Amazon EC2 for continuous operation and accessibility. Integrated the Google Cloud API using Nginx for users to schedule and manage events through Discord. Implemented and tested advanced error handling and logging mechanisms to ensure robust operation.",
-      "highlights": ["Continuous operation on Amazon EC2", "Google Cloud API integration", "Advanced error handling and logging"],
-      "startDate": "2024-04-29",
-      "endDate": "",
-      "url": "/projects/Discord%20Chatbot%20Integration%20with%20Google%20Calendar/"
-    }
-  ],
-  // "publications": [
-  //   {
-  //     "name": "Zur Elektrody/namik bewegter Körper",
-  //     "publisher": "Annalen der Physik",
-  //     "releaseDate": "1905-06-30",
-  //     "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-  //     "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-  //   },
-  // ],
-"awards": [
-  {
-    "title": "Galileo Circle Scholar",
-    "date": "2025-04-01",
-    "awarder": "College of Science, University of Arizona",
-    "url": "https://science.arizona.edu/galileo-circle",
-    "summary": "Awarded to top undergraduate researchers in the College of Science (Top 0.8%)."
-  },
-  {
-    "title": "Academic Highest Distinction (Dean's List)",
-    "date": "2023-08-01",
-    "awarder": "University of Arizona",
-    "summary": "Recognized for achieving a 4.0 GPA across six consecutive semesters."
-  },
-  {
-    "title": "Global Wildcat Scholarship",
-    "date": "2023-05-01",
-    "awarder": "University of Arizona",
-    "summary": "Merit-based scholarship awarded to top international students for academic excellence."
-  },
-  {
-    "title": "Shanghai Science and Technology Award (Third Prize)",
-    "date": "2021-05-01",
-    "awarder": "Shanghai Municipal Government",
-    "summary": "Awarded for innovation in high school science and engineering projects."
-  },
-  {
-    "title": "Shanghai Youth Science and Technology Innovation Competition (Third Prize)",
-    "date": "2020-05-01",
-    "awarder": "Shanghai Nanyang Model High School",
-    "summary": "Recognized for excellence in student-led science research projects at the city level."
-  },
-  {
-    "title": "China National Youth Arts Competition (Group First Prize)",
-    "date": "2018-06-01",
-    "awarder": "Shanghai Nanyang Model High School",
-    "summary": "Awarded for outstanding team performance in a national-level youth orchestras competition."
-  }
-],
-  // "certificates": [
-  //   {
-  //     "name": "Social & Behavioral Research Investigators",
-  //     "date": "2023-09-25",
-  //     "issuer": "Citi program",
-  //     "url": "https://www.citiprogram.org/verify/?wdc107489-491c-4e8f-a1fb-6dc5949c043d-58621022",
-  //     "icon": "fa-solid fa-bookmark"
-  //   },
-  //   {
-  //     "name": "Native American Research",
-  //     "date": "2023-09-25",
-  //     "issuer": "Citi program",
-  //     "url": "https://www.citiprogram.org/verify/?w9bdc8fad-b81b-4741-a45f-2f27d95dea42-58621023",
-  //     "icon": "fa-solid fa-bookmark"
-  //   }
-  // ],
-  // "volunteer": [
-  //   {
-  //     "organization": "People's Climate March",
-  //     "location": "Zurich, Switzerland",
-  //     "position": "Lead Organizer",
-  //     "url": "https://example.com",
-  //     "startDate": "2014-04-01",
-  //     "endDate": "2015-07-01",
-  //     "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-  //     "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-  //   }
-  // ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Bilingual Proficiency",
-      "icon": "fa-solid fa-language"
-    },
-    {
-      "language": "Chinese & Shanghainese",
-      "fluency": "Bilingual Proficiency",
-      "icon": "fa-solid fa-language"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Natural Language Processing",
-      "icon": "fa-solid fa-language",
-      "keywords": [
-        "Language Models",
-        "Text Understanding",
-        "Generation"
-      ]
-    },
-    {
-      "name": "Cognitive Modeling",
-      "icon": "fa-solid fa-brain",
-      "keywords": [
-        "Theory of Mind",
-        "Human Behavior",
-        "Belief Modeling"
-      ]
-    },
-    {
-      "name": "Machine Learning",
-      "icon": "fa-solid fa-robot",
-      "keywords": [
-        "Generalization",
-        "Uncertainty",
-        "Reinforcement Learning"
-      ]
-    },
-    {
-      "name": "LLM Reasoning & Alignment",
-      "icon": "fa-solid fa-scale-balanced",
-      "keywords": [
-        "Faithful Reasoning",
-        "Step-wise Inference",
-        "Human Alignment"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor Liangming Pan (liangmingpan@arizona.edu)",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Assistant Professor, School of Information, University of Arizona. Supervised my research on reasoning in large language models."
-    },
-    {
-      "name": "Professor Mihai Surdeanu (msurdeanu@arizona.edu)",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Professor, Department of Computer Science, University of Arizona. Advised me on efficient architectures for LLM inference."
-    },
-    {
-      "name": "Professor Kobus Barnard (kobus@arizona.edu)",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Professor, Department of Computer Science, University of Arizona. Mentored me for several years on probabilistic graphical models and cognitive science."
-    },
-    {
-      "name": "Professor Reyan Ahmed (abureyanahmed@arizona.edu)",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Assistant Professor, Department of Computer Science, University of Arizona. Prof. Ahmed was my mentor during my research on a graph drawing project."
-    },
-    {
-      "name": "James Bloomer (jbloomer@coretechs.com)",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Partner and Vice President of Coretechs. I worked closely with James during my internship at Coretechs, where he oversaw my contributions to projects."
-    }
-  ]
-}
+// {
+//   "basics": {
+//     "name": "Minglai Yang",
+//     "location": {
+//       "city": "Tucson",
+//       "countryCode": "USA"
+//     },
+//     "email": "mingly@arizona.edu",
+//     "phone": "+1 (240) 453 1294",
+//     "url": "https://ymingl.com/"
+//   },
+//   "education": [
+//     {
+//       "institution": "University of Arizona",
+//       "location": "Tucson, AZ, USA",
+//       "url": "https://www.arizona.edu/",
+//       "area": "Computer Science",
+//       "studyType": "B.S.",
+//       "startDate": "2023-08-24",
+//       "endDate": "2025-12-15",
+//       "score": "GPA: 4.0/4.0",
+//       "address": "1121 E 4th St.",
+//       "postalCode": "AZ 85721",
+//       "region": "Arizona",
+//       "courses": [
+//         "Computer Vision",
+//         "Deep Learning for Natural Language Processing",
+//         "Software Development",
+//         "Computer Organization",
+//         "Object-Oriented Programming (OOP)",
+//         "Algorithms",
+//         "Artificial Intelligence",
+//         "Machine Learning",
+//         "Probabilistic Graphical Models",
+//         "Discrete Mathematics",
+//         "Linear Algebra",
+//         "Probability & Statistics for Engineers"
+//       ],
+//       "summary": "Expected Graduation: December 2025 (on track to complete B.S. in 2.5 years)"
+//     }
+//   ],
+//   "work": [
+//     {
+//       "name": "Tsinghua University",
+//       "position": "Visiting Researcher (Upcoming)",
+//       "location": "Beijing, China",
+//       "summary": "Research in mechanism interpretability and LLM reasoning."
+//     },
+//     {
+//       "name": "The University of Arizona, CLU-LAB",
+//       "position": "Undergraduate Research Assistant",
+//       "location": "Tucson, AZ",
+//       "startDate": "2024-10-01",
+//       "endDate": "",
+//       "summary": "Advisor: Dr. Liangming Pan, Dr. Mihai Surdeanu. Leading research projects on analyzing large language models' reasoning, improving RL efficiency with LLM-guided warm starts, and speculative decoding strategies."
+//     },
+//     {
+//       "name": "The University of Arizona, ML4AI-LAB and IVILAB",
+//       "position": "Undergraduate Research Assistant",
+//       "location": "Tucson, AZ",
+//       "startDate": "2023-10-01",
+//       "endDate": "",
+//       "summary": "Advisor: Dr. Kobus Barnard, Dr. Adarsh Pyarelal. Developing dynamic Bayesian networks and Theory of Mind models for the ToMCAT project, focusing on modeling human coordination and distinguishing genuine interpersonal synchrony."
+//     },
+//     {
+//       "name": "The University of Arizona, HDC-LAB",
+//       "position": "Undergraduate Research Assistant",
+//       "location": "Tucson, AZ",
+//       "startDate": "2024-01-01",
+//       "endDate": "2024-05-31",
+//       "summary": "Advisor: Dr. Reyan Ahmed, Dr. Stephen Kobourov. Conducted deep learning research on graph drawing, focusing on evaluating and interpreting the behavior of Graph Neural Networks."
+//     },
+//     {
+//       "name": "Coretechs Consulting Inc.",
+//       "position": "Machine Learning Engineer Intern (Full Time)",
+//       "location": "Kensington, MD",
+//       "startDate": "2024-05-12",
+//       "endDate": "2024-08-09",
+//       "summary": "Built GPT-powered bots for Slack using RAG, integrated Slack-based live chat into the official website, orchestrated AWS website deployment, simulated 500+ concurrent users with Selenium, and received the Best Intern Award."
+//     },
+//     {
+//       "name": "University of Arizona",
+//       "position": "Team Leader, Mathematical Contest in Modeling (MCM)",
+//       "location": "Tucson, AZ",
+//       "startDate": "2024-02-01",
+//       "endDate": "2024-03-01",
+//       "summary": "Led a team for the 2024 Mathematical Contest in Modeling (MCM), responsible for project coordination, modeling, and paper writing."
+//     }
+//   ],
+//   "publications": [
+//     {
+//       "name": "How Is LLM Reasoning Distracted by Irrelevant Context? An Analysis Using a Controlled Benchmark",
+//       "publisher": "Under Submission (EMNLP 2025), Score: 4/4/3.5",
+//       "releaseDate": "2025-05-28",
+//       "url": "https://arxiv.org/abs/2505.18761",
+//       "summary": "This work studies the fundamental principles of LLM reasoning under irrelevant context, revealing universal laws and strategies to improve model robustness and interpretability."
+//     },
+//     {
+//       "name": "Improving the Data-efficiency of Reinforcement Learning by Warm-starting with LLM",
+//       "publisher": "Under Submission (EMNLP 2025), Score: 2.5/4/2.5",
+//       "releaseDate": "2025-05-16",
+//       "url": "https://arxiv.org/abs/2505.10861",
+//       "summary": "This work proposes a method to improve the data-efficiency of reinforcement learning by leveraging large language models for warm-starting, demonstrating significant gains in learning speed and performance."
+//     },
+//     {
+//       "name": "CopySpec: Accelerating LLMs with Speculative Copy-and-Paste Without Compromising Quality",
+//       "publisher": "Under Submission (NeurIPS 2025)",
+//       "releaseDate": "2025-02-21",
+//       "url": "https://arxiv.org/abs/2502.08923",
+//       "summary": "CopySpec introduces a speculative copy-and-paste mechanism to accelerate large language models, achieving faster inference without sacrificing output quality."
+//     }
+//   ],
+//   "awards": [
+//     {
+//       "title": "Galileo Circle Scholar",
+//       "date": "2025-04-01",
+//       "awarder": "College of Science, University of Arizona"
+//     },
+//     {
+//       "title": "Mathematical Contest in Modeling (MCM) Award",
+//       "date": "2024-03-01",
+//       "awarder": "Consortium for Mathematics and Its Applications (COMAP)",
+//       "summary": "Team Leader for the 2024 University of Arizona Math Modeling Group. "
+//     },
+//     {
+//       "title": "Academic Highest Distinction (Dean's List)",
+//       "date": "2023-08-01",
+//       "awarder": "University of Arizona"
+//     },
+//     {
+//       "title": "Global Wildcat Scholarship",
+//       "date": "2023-05-01",
+//       "awarder": "University of Arizona"
+//     },
+//     {
+//       "title": "Shanghai Youth Science and Technology Innovation Competition (Third Prize)",
+//       "date": "2020-05-01",
+//       "awarder": "Shanghai Nanyang Model High School"
+//     },
+//     {
+//       "title": "China National Youth Arts Competition (Group First Prize)",
+//       "date": "2018-06-01",
+//       "awarder": "Shanghai Nanyang Model High School"
+//     }
+//   ],
+//   "leadership": [
+//     {
+//       "organization": "AI Club at University of Arizona",
+//       "position": "President",
+//       "location": "Tucson, AZ",
+//       "startDate": "2024-08-01",
+//       "endDate": "",
+//       "summary": "Organized workshops on AI agents and LLM applications, including a Hack Arizona event with 100+ participants. Led weekly lectures and invited speaker sessions to foster AI learning across disciplines. Organized a reading group that mentors students interested in AI research. Raised over $12,000 in sponsorships to support club activities and student research projects."
+//     }
+//   ],
+//   "reviewing": [
+//     {
+//       "event": "ICML AI4MATH Workshop",
+//       "role": "Reviewer",
+//       "location": "Virtual / International",
+//       "startDate": "2024-05-01",
+//       "endDate": "2024-06-01",
+//       "summary": "Served as a reviewer for the ICML 2024 AI4MATH Workshop, evaluating submissions in the intersection of artificial intelligence and mathematics."
+//     }
+//   ],
+//   "teaching": [
+//     {
+//       "title": "Instructor, Math for AI Workshop Series",
+//       "organization": "AI Club, University of Arizona",
+//       "term": "Fall 2024 – Spring 2025"
+//     },
+//     {
+//       "title": "TA, CSC-144: Discrete Mathematics",
+//       "organization": "Computer Science, University of Arizona",
+//       "term": "Spring 2025"
+//     }
+//   ]
+// }

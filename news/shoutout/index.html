@@ -17,12 +17,13 @@
   
   
     
-      Data Visualization - Graph Drawing | Minglai Yang 
+      Shoutout | Minglai Yang 
     
   
 </title>
 <meta name="author" content="Minglai Yang ">
-<meta name="description" content="Optimizing Graph Layouts with Vertex Resolution Using Circumcircles">
+<meta name="description" content="Building intelligent systems to shape a smarter world.
+">
 
   <meta name="keywords" content="Ming's Portfolio Website">
 
@@ -60,7 +61,7 @@
   <link rel="shortcut icon" href="/assets/img/yml.png?a3d2fc63cd6fce221d1267f1e81aa05a">
 
 <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
-<link rel="canonical" href="http://localhost:4000/projects/Data%20Visualization%20-%20Graph%20Drawing/">
+<link rel="canonical" href="http://localhost:4000/news/shoutout/">
 
 <!-- Dark Mode -->
 <script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script>
@@ -150,7 +151,7 @@
                 
                 <li class="nav-item ">
                   
-                  <a class="nav-link" href="/cv/">Bio
+                  <a class="nav-link" href="/bio/">Bio
                     
                   </a>
                 </li>
@@ -217,92 +218,77 @@
     <!-- Content -->
     <div class="container mt-5" role="main">
       
-        <div class="post">
+        
+
+
+
+
+
+
+
+<div class="post">
   <header class="post-header">
-    <h1 class="post-title">Data Visualization - Graph Drawing</h1>
-    <p class="post-description">Optimizing Graph Layouts with Vertex Resolution Using Circumcircles</p>
+    <h1 class="post-title">Shoutout</h1>
+    <p class="post-meta">
+      Created in November 01, 2024
+      
+      
+      
+    </p>
+    <p class="post-tags">
+      
+        <i class="fa-solid fa-calendar fa-sm"></i> 2024
+      
+      
+
+      
+    </p>
   </header>
 
-  <article>
-    <p>Graphs represent relationships between entities, and visualizing these relationships effectively is crucial for understanding the underlying data. Traditional graph drawing algorithms often focus on optimizing single readability criteria—such as minimizing edge crossings or preserving distances—while neglecting others. To overcome this limitation, we propose a novel graph layout approach that emphasizes vertex resolution using circumcircles.</p>
-
-<h2 id="vertex-resolution-using-circumcircles">Vertex Resolution Using Circumcircles:</h2>
-
-<p>Vertex resolution is a key readability criterion that ensures nodes in a graph are distinguishable and well-separated. Our approach introduces the concept of circumcircles to enhance vertex resolution. Each node is enclosed within a circumcircle, and the size of the circumcircle is determined by the length of the node’s label. By optimizing the positions of the nodes, we ensure that the circumcircles do not overlap, thereby improving the overall readability of the graph.</p>
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
+  <article class="post-content">
     
-    <img src="/assets/img/VResult.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
+    <div id="markdown-content">
+      <p>I’m featured in <a href="https://view.comms.arizona.edu/?qs=5dc15e428bae27fb5e9cf52aab200ed5a906ed31d63430a7627723e4e18b13bbe6acb8922000f7482aa30672da053810c4a49ba8df360e5281a300ac2216c41cccce3892e6a06825be3e077b03618477" rel="external nofollow noopener" target="_blank">our department newsletter</a>! Huge thanks to Rishu Singh for the shoutout.</p>
 
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-    <img src="/assets/img/VRdemo.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-    </div>
-</div>
-<div class="caption">
-    A small demo: the left side shows the results with enhanced vertex resolution and node labels, while the right side displays the original randomly generated graphs. (The size of characters doesn't matter because they can be changed easily.)
-</div>
-
-<h1 id="key-features">Key Features:</h1>
-
-<h3 id="circumcircle-based-vertex-resolution">Circumcircle-Based Vertex Resolution:</h3>
-
-<p>Each node is enclosed within a circumcircle.
-The radius of the circumcircle is proportional to the length of the node’s label, ensuring that larger labels have more space.
-Nodes are positioned such that their circumcircles do not overlap, enhancing the clarity and separation between nodes.</p>
-
-<h3 id="multi-criteria-optimization">Multi-Criteria Optimization:</h3>
-
-<p>Our approach can optimize multiple readability criteria simultaneously, including ideal edge lengths, stress (distance preservation), neighborhood preservation, vertex resolution, angular resolution, and aspect ratio.
-This ensures a balanced approach to graph readability, where no single criterion is prioritized at the expense of others.</p>
-
-<h3 id="gradient-descent-for-optimization">Gradient Descent for Optimization:</h3>
-
-<p>The positions of the nodes are optimized using gradient descent, a powerful method that iteratively adjusts the node positions to minimize the overlap between circumcircles and improve other readability criteria.
-By combining smooth and non-smooth functions, our approach can handle complex criteria that are difficult to optimize using traditional methods.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Effectiveness:
-
-This is a both quantitative and qualitative evidence of the effectiveness of our approach through 
-experimental data and a functional prototype. By incorporating vertex resolution using circumcircles, 
-our method ensures that nodes are well-separated and readable, even in dense graph layouts. This 
-enhances the overall comprehension of the graph, making it easier to understand the relationships 
-between entities.
-</code></pre></div></div>
-
   </article>
 
   
 
+  
+
+  
+    
+      
+
+  
+    
+    <br>
+    <hr>
+    <br>
+    <ul class="list-disc pl-8"></ul>
+
+    <!-- Adds related posts to the end of an article -->
+    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
+    <p class="mb-2">Here are some more articles you might like to read next:</p>
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/aws/">I attend AWS Summit as a Machine Learning Engineer at Coretechs!</a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/math/">Mathematical Modeling in the 2024 MCM</a>
+  </li>
+
+
+
+    
+  
+
+  
   
 </div>
 
@@ -319,7 +305,7 @@ between entities.
       . 
       
       
-        Last updated: June 07, 2025.
+        Last updated: July 19, 2025.
       
     </div>
   </footer>
@@ -535,10 +521,10 @@ between entities.
         },
       },{id: "nav-bio",
               title: "Bio",
-              description: "You can find my one-page resume on the right.",
+              description: "You can find a PDF version of my full CV on the right.",
               section: "Navigation",
               handler: () => {
-                window.location.href = "/cv/";
+                window.location.href = "/bio/";
               },
             },{id: "nav-publications",
               title: "Publications",
@@ -576,20 +562,23 @@ between entities.
               window.location.href = "/blog/2024/math/";
             
           },
-        },{id: "news-i-will-be-a-visiting-researcher-at-lt-a-href-quot-https-www-cs-tsinghua-edu-cn-csen-quot-gt-tsinghua-university-lt-a-gt-this-summer-focusing-on-reasoning-in-large-language-models-llms",
-          title: 'I will be a visiting researcher at &lt;a href=&quot;https://www.cs.tsinghua.edu.cn/csen/&quot;&gt;Tsinghua University&lt;/a&gt; this summer, focusing on reasoning in large language models (LLMs).',
+        },{id: "news-i-will-be-a-visiting-researcher-at-tsinghua-university-https-www-cs-tsinghua-edu-cn-csen-this-summer-focusing-on-reasoning-in-large-language-models-llms",
+          title: 'I will be a visiting researcher at [Tsinghua University](https://www.cs.tsinghua.edu.cn/csen/) this summer, focusing on reasoning in large language models (LLMs).',
           description: "",
-          section: "News",},{id: "news-galileo-circle-scholar-university-of-arizona-lt-strong-gt-top-0-8-academic-award-lt-strong-gt",
-          title: 'Galileo Circle Scholar, University of Arizona — &lt;strong&gt;Top 0.8% academic award&lt;/strong&gt;.',
+          section: "News",},{id: "news-galileo-circle-scholar-university-of-arizona-top-0-8-academic-award",
+          title: 'Galileo Circle Scholar, University of Arizona — **Top 0.8% academic award**.',
           description: "",
-          section: "News",},{id: "news-as-president-of-the-lt-a-href-quot-https-uaaiclub-com-quot-gt-ai-club-at-the-university-of-arizona-lt-a-gt-i-led-the-club-to-raise-over-10-000",
-          title: 'As President of the &lt;a href=&quot;https://uaaiclub.com/&quot;&gt;AI Club at the University of Arizona&lt;/a&gt;, I led the club to raise over $10,000.',
+          section: "News",},{id: "news-as-president-of-the-ai-club-at-the-university-of-arizona-https-uaaiclub-com-i-led-the-club-to-raise-over-10-000",
+          title: 'As President of the [AI Club at the University of Arizona](https://uaaiclub.com/), I led the club to raise over $10,000.',
           description: "",
-          section: "News",},{id: "news-excited-to-receive-an-raship-i-ll-lead-a-project-advised-by-lt-a-href-quot-https-liangmingpan-bio-quot-gt-liangming-pan-lt-a-gt-and-collaborate-with-lt-a-href-quot-https-sites-cs-ucsb-edu-william-quot-gt-william-wang-lt-a-gt-at-ucsb-nlp-group",
-          title: 'Excited to receive an RAship! I’ll lead a project advised by &lt;a href=&quot;https://liangmingpan.bio&quot;&gt;Liangming Pan&lt;/a&gt; and collaborate with &lt;a href=&quot;https://sites.cs.ucsb.edu/~william/&quot;&gt;William Wang&lt;/a&gt; at UCSB NLP Group.',
+          section: "News",},{id: "news-excited-to-receive-an-raship-i-ll-lead-a-project-advised-by-liangming-pan-https-liangmingpan-bio-and-collaborate-with-william-wang-https-sites-cs-ucsb-edu-william-at-ucsb-nlp-group",
+          title: 'Excited to receive an RAship! I’ll lead a project advised by [Liangming Pan](https://liangmingpan.bio) and collaborate with [William Wang](https://sites.cs.ucsb.edu/~william/) at UCSB NLP Group.',
           description: "",
-          section: "News",},{id: "news-i-ve-joined-the-computational-language-understanding-lab-lt-a-href-quot-clulab-org-quot-gt-clulab-lt-a-gt-i-m-grateful-to-be-advised-by-lt-a-href-quot-https-surdeanu-cs-arizona-edu-mihai-quot-gt-mihai-surdeanu-lt-a-gt-working-on-nlp-and-efficient-architectures",
-          title: 'I’ve joined the Computational Language Understanding Lab (&lt;a href=&quot;clulab.org&quot;&gt;CLULAB&lt;/a&gt;)! I’m grateful to be advised by &lt;a href=&quot;https://surdeanu.cs.arizona.edu/mihai/&quot;&gt;Mihai Surdeanu&lt;/a&gt; working on NLP and efficient architectures.',
+          section: "News",},{id: "news-i-m-featured-in-lt-a-href-quot-https-view-comms-arizona-edu-qs-5dc15e428bae27fb5e9cf52aab200ed5a906ed31d63430a7627723e4e18b13bbe6acb8922000f7482aa30672da053810c4a49ba8df360e5281a300ac2216c41cccce3892e6a06825be3e077b03618477-quot-gt-our-department-newsletter-lt-a-gt-huge-thanks-to-rishu-singh-for-the-shoutout",
+          title: 'I’m featured in &lt;a href=&quot;https://view.comms.arizona.edu/?qs=5dc15e428bae27fb5e9cf52aab200ed5a906ed31d63430a7627723e4e18b13bbe6acb8922000f7482aa30672da053810c4a49ba8df360e5281a300ac2216c41cccce3892e6a06825be3e077b03618477&quot;&gt;our department newsletter&lt;/a&gt;! Huge thanks to Rishu Singh for the shoutout.',
+          description: "",
+          section: "News",},{id: "news-i-ve-joined-the-computational-language-understanding-lab-lt-a-href-quot-clulab-org-quot-gt-clulab-lt-a-gt-i-m-grateful-to-be-advised-by-lt-a-href-quot-https-surdeanu-cs-arizona-edu-mihai-quot-gt-mihai-surdeanu-lt-a-gt-working-on-nlp-and-efficient-llms",
+          title: 'I’ve joined the Computational Language Understanding Lab (&lt;a href=&quot;clulab.org&quot;&gt;CLULAB&lt;/a&gt;)! I’m grateful to be advised by &lt;a href=&quot;https://surdeanu.cs.arizona.edu/mihai/&quot;&gt;Mihai Surdeanu&lt;/a&gt; working on NLP and efficient LLMs.',
           description: "",
           section: "News",},{id: "news-i-m-starting-a-new-position-as-machine-learning-engineer-intern-at-lt-a-href-quot-https-www-coretechs-com-quot-gt-coretechs-lt-a-gt",
           title: 'I’m starting a new position as Machine Learning Engineer Intern at &lt;a href=&quot;https://www.coretechs.com/&quot;&gt;CoreTechs&lt;/a&gt;!',
@@ -602,36 +591,21 @@ between entities.
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "projects-chatgpt-slack-integration",
-              title: 'ChatGPT Slack Integration',
-              description: "A Project Connecting ChatGPT and Slack for organizations/companies internal use",
-              section: "Projects",handler: () => {
-                  window.location.href = "/projects/ChatGPT%20Slack%20Integration/";
-                },},{id: "projects-darts-app",
+            },},{id: "projects-darts-app",
               title: 'Darts App',
               description: "Experience competitive darts online with the Darts Game Website. Featuring real-time scoring, multiple game modes, and a dynamic leaderboard, it transforms traditional darts into an engaging digital experience.",
               section: "Projects",handler: () => {
                   window.location.href = "/projects/Darts%20App/";
-                },},{id: "projects-data-visualization-graph-drawing",
-              title: 'Data Visualization - Graph Drawing',
+                },},{id: "projects-how-irrelevant-context-distracts-llm-reasoning",
+              title: 'How Irrelevant Context Distracts LLM Reasoning?',
               description: "Optimizing Graph Layouts with Vertex Resolution Using Circumcircles",
               section: "Projects",handler: () => {
-                  window.location.href = "/projects/Data%20Visualization%20-%20Graph%20Drawing/";
-                },},{id: "projects-discord-chatbot-integration-with-google-calendar",
-              title: 'Discord Chatbot Integration with Google Calendar',
-              description: "This project is inspired by JARVIS from Iron Man.",
-              section: "Projects",handler: () => {
-                  window.location.href = "/projects/Discord%20Chatbot%20Integration%20with%20Google%20Calendar/";
+                  window.location.href = "/projects/GSM-DC/";
                 },},{id: "projects-tomcat",
               title: 'ToMCAT',
               description: "Theory of Mind-based Cognitive Architecture for Teams. A collaboration between the Information School (INFO), Computer Science (CS), and Family Studies and Human Development (FSHD) has been awarded a large grant to develop a theory of mind-based cognitive architecture for teams (ToMCAT). The grant ($7.5M, for 48 months) is part of the DARPA Artificial Social Intelligence for Successful Teams",
               section: "Projects",handler: () => {
                   window.location.href = "/projects/Theory%20of%20Mind-based%20Cognitive%20Architecture%20for%20Teams%20(ToMCAT)/";
-                },},{id: "projects-web-load-analyst",
-              title: 'Web Load Analyst',
-              description: "Optimize your website&#39;s performance by understanding its load times with our cutting-edge analysis tool.",
-              section: "Projects",handler: () => {
-                  window.location.href = "/projects/Web%20Load%20Analyst/";
                 },},{
             id: 'socials-email',
             title: 'Send email',

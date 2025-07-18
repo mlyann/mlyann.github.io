@@ -5,7 +5,7 @@ permalink: /projects/
 description: An expanding portfolio of innovative and collaborative projects with my team.
 nav: true
 nav_order: 2
-display_categories: [fun, work, research]
+display_categories: [research, fun]
 horizontal: false
 ---
 

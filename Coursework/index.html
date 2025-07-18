@@ -50,9 +50,6 @@
 <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
 
 
-  <!-- Sidebar Table of Contents -->
-  <link defer href="/assets/css/bootstrap-toc.min.css?6f5af0bb9aab25d79b2448143cbeaa88" rel="stylesheet">
-
 
 <!-- Styles -->
 
@@ -153,7 +150,7 @@
                 
                 <li class="nav-item ">
                   
-                  <a class="nav-link" href="/cv/">Bio
+                  <a class="nav-link" href="/bio/">Bio
                     
                   </a>
                 </li>
@@ -222,15 +219,7 @@
     <!-- Content -->
     <div class="container mt-5" role="main">
       
-        
-          <div class="row">
-            <!-- sidebar, which will move to the top on a small screen -->
-            <div class="col-sm-3">
-              <nav id="toc-sidebar" class="sticky-top"></nav>
-            </div>
-            <!-- main content area -->
-            <div class="col-sm-9">
-<div class="post">
+        <div class="post">
   <header class="post-header">
     <h1 class="post-title">Coursework</h1>
     <p class="post-description">Some links may be unavailable due to copyright restrictions.</p>
@@ -319,7 +308,7 @@
     <div>
 <a href="/assets/pdf/grades/296grades.pdf">Grade Details</a> • <a href="/assets/pdf/grades/296syllabus.pdf">Syllabus</a>
 </div>
-    <div style="color: green; font-weight: bold;">🏆 Top 1 in Midterm</div>
+    <div style="color: green; font-weight: bold;">🏆 Top 1 in Midterm and Final Exam</div>
   </div>
 </div>
 
@@ -371,6 +360,28 @@
   </div>
 </div>
 
+<div style="border: 1px solid #ccc; border-radius: 8px; padding: 16px; display: flex; justify-content: space-between; flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 240px;">
+    <strong>Probabilistic Modeling</strong><br>
+    Covered Bayesian inference, graphical models, EM algorithm, kernel methods, and variational inference. Worked through key derivations.
+  </div>
+  <div style="text-align: right; min-width: 220px;">
+    <div><em>Resource: PRML by Christopher Bishop</em></div>
+    <div><a href="https://www.microsoft.com/en-us/research/people/cmbishop/prml-book/" rel="external nofollow noopener" target="_blank">Book Website</a></div>
+  </div>
+</div>
+
+<div style="border: 1px solid #ccc; border-radius: 8px; padding: 16px; display: flex; justify-content: space-between; flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 240px;">
+    <strong>Language Modeling from Scratch</strong><br>
+    Data collection, tokenization, transformer implementation, GPU optimization, scaling laws, pretraining, and alignment with RLHF.
+  </div>
+  <div style="text-align: right; min-width: 220px;">
+    <div><em>Resource: Stanford CS336</em></div>
+    <div><a href="https://web.stanford.edu/class/cs336/" rel="external nofollow noopener" target="_blank">Course Website</a></div>
+  </div>
+</div>
+
 
 </div>
 
@@ -381,9 +392,7 @@
 
   
 </div>
-</div>
-          </div>
-        
+
       
     </div>
 
@@ -397,7 +406,7 @@
       . 
       
       
-        Last updated: June 07, 2025.
+        Last updated: July 19, 2025.
       
     </div>
   </footer>
@@ -442,9 +451,6 @@
   <script defer src="/assets/libs/medium_zoom/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
   <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
 
-
-  <!-- Sidebar Table of Contents -->
-  <script defer src="/assets/js/bootstrap-toc.min.js?c82ff4de8b0955d6ff14f5b05eed7eb6"></script>
 
 
 <!-- Bootstrap Table -->
@@ -616,10 +622,10 @@
         },
       },{id: "nav-bio",
               title: "Bio",
-              description: "You can find my one-page resume on the right.",
+              description: "You can find a PDF version of my full CV on the right.",
               section: "Navigation",
               handler: () => {
-                window.location.href = "/cv/";
+                window.location.href = "/bio/";
               },
             },{id: "nav-publications",
               title: "Publications",
@@ -669,8 +675,11 @@
           section: "News",},{id: "news-excited-to-receive-an-raship-i-ll-lead-a-project-advised-by-lt-a-href-quot-https-liangmingpan-bio-quot-gt-liangming-pan-lt-a-gt-and-collaborate-with-lt-a-href-quot-https-sites-cs-ucsb-edu-william-quot-gt-william-wang-lt-a-gt-at-ucsb-nlp-group",
           title: 'Excited to receive an RAship! I’ll lead a project advised by &lt;a href=&quot;https://liangmingpan.bio&quot;&gt;Liangming Pan&lt;/a&gt; and collaborate with &lt;a href=&quot;https://sites.cs.ucsb.edu/~william/&quot;&gt;William Wang&lt;/a&gt; at UCSB NLP Group.',
           description: "",
-          section: "News",},{id: "news-i-ve-joined-the-computational-language-understanding-lab-lt-a-href-quot-clulab-org-quot-gt-clulab-lt-a-gt-i-m-grateful-to-be-advised-by-lt-a-href-quot-https-surdeanu-cs-arizona-edu-mihai-quot-gt-mihai-surdeanu-lt-a-gt-working-on-nlp-and-efficient-architectures",
-          title: 'I’ve joined the Computational Language Understanding Lab (&lt;a href=&quot;clulab.org&quot;&gt;CLULAB&lt;/a&gt;)! I’m grateful to be advised by &lt;a href=&quot;https://surdeanu.cs.arizona.edu/mihai/&quot;&gt;Mihai Surdeanu&lt;/a&gt; working on NLP and efficient architectures.',
+          section: "News",},{id: "news-i-m-featured-in-lt-a-href-quot-https-view-comms-arizona-edu-qs-5dc15e428bae27fb5e9cf52aab200ed5a906ed31d63430a7627723e4e18b13bbe6acb8922000f7482aa30672da053810c4a49ba8df360e5281a300ac2216c41cccce3892e6a06825be3e077b03618477-quot-gt-our-department-newsletter-lt-a-gt-huge-thanks-to-rishu-singh-for-the-shoutout",
+          title: 'I’m featured in &lt;a href=&quot;https://view.comms.arizona.edu/?qs=5dc15e428bae27fb5e9cf52aab200ed5a906ed31d63430a7627723e4e18b13bbe6acb8922000f7482aa30672da053810c4a49ba8df360e5281a300ac2216c41cccce3892e6a06825be3e077b03618477&quot;&gt;our department newsletter&lt;/a&gt;! Huge thanks to Rishu Singh for the shoutout.',
+          description: "",
+          section: "News",},{id: "news-i-ve-joined-the-computational-language-understanding-lab-lt-a-href-quot-clulab-org-quot-gt-clulab-lt-a-gt-i-m-grateful-to-be-advised-by-lt-a-href-quot-https-surdeanu-cs-arizona-edu-mihai-quot-gt-mihai-surdeanu-lt-a-gt-working-on-nlp-and-efficient-llms",
+          title: 'I’ve joined the Computational Language Understanding Lab (&lt;a href=&quot;clulab.org&quot;&gt;CLULAB&lt;/a&gt;)! I’m grateful to be advised by &lt;a href=&quot;https://surdeanu.cs.arizona.edu/mihai/&quot;&gt;Mihai Surdeanu&lt;/a&gt; working on NLP and efficient LLMs.',
           description: "",
           section: "News",},{id: "news-i-m-starting-a-new-position-as-machine-learning-engineer-intern-at-lt-a-href-quot-https-www-coretechs-com-quot-gt-coretechs-lt-a-gt",
           title: 'I’m starting a new position as Machine Learning Engineer Intern at &lt;a href=&quot;https://www.coretechs.com/&quot;&gt;CoreTechs&lt;/a&gt;!',
@@ -683,36 +692,21 @@
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "projects-chatgpt-slack-integration",
-              title: 'ChatGPT Slack Integration',
-              description: "A Project Connecting ChatGPT and Slack for organizations/companies internal use",
-              section: "Projects",handler: () => {
-                  window.location.href = "/projects/ChatGPT%20Slack%20Integration/";
-                },},{id: "projects-darts-app",
+            },},{id: "projects-darts-app",
               title: 'Darts App',
               description: "Experience competitive darts online with the Darts Game Website. Featuring real-time scoring, multiple game modes, and a dynamic leaderboard, it transforms traditional darts into an engaging digital experience.",
               section: "Projects",handler: () => {
                   window.location.href = "/projects/Darts%20App/";
-                },},{id: "projects-data-visualization-graph-drawing",
-              title: 'Data Visualization - Graph Drawing',
+                },},{id: "projects-how-irrelevant-context-distracts-llm-reasoning",
+              title: 'How Irrelevant Context Distracts LLM Reasoning?',
               description: "Optimizing Graph Layouts with Vertex Resolution Using Circumcircles",
               section: "Projects",handler: () => {
-                  window.location.href = "/projects/Data%20Visualization%20-%20Graph%20Drawing/";
-                },},{id: "projects-discord-chatbot-integration-with-google-calendar",
-              title: 'Discord Chatbot Integration with Google Calendar',
-              description: "This project is inspired by JARVIS from Iron Man.",
-              section: "Projects",handler: () => {
-                  window.location.href = "/projects/Discord%20Chatbot%20Integration%20with%20Google%20Calendar/";
+                  window.location.href = "/projects/GSM-DC/";
                 },},{id: "projects-tomcat",
               title: 'ToMCAT',
               description: "Theory of Mind-based Cognitive Architecture for Teams. A collaboration between the Information School (INFO), Computer Science (CS), and Family Studies and Human Development (FSHD) has been awarded a large grant to develop a theory of mind-based cognitive architecture for teams (ToMCAT). The grant ($7.5M, for 48 months) is part of the DARPA Artificial Social Intelligence for Successful Teams",
               section: "Projects",handler: () => {
                   window.location.href = "/projects/Theory%20of%20Mind-based%20Cognitive%20Architecture%20for%20Teams%20(ToMCAT)/";
-                },},{id: "projects-web-load-analyst",
-              title: 'Web Load Analyst',
-              description: "Optimize your website&#39;s performance by understanding its load times with our cutting-edge analysis tool.",
-              section: "Projects",handler: () => {
-                  window.location.href = "/projects/Web%20Load%20Analyst/";
                 },},{
             id: 'socials-email',
             title: 'Send email',
